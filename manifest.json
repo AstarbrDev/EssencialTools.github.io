@@ -1,0 +1,822 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/rafae/OneDrive/Desktop/Organizar/Creation/EssencialTools_Core/EssencialTools_Core",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ZcRFJgNhvhM6kAH28Vkb5TxxGPe7FlftmernEpHWKBw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yF4cM99miGSsrT64oV0kgkl56YkQylthgw5Gl1aJqzo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GGOovSab6ZFxRkwbTiKX/AxcXz9WU1qSZOSIhjRqq74="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.ConditionalFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.ConditionalFieldAttribute.html",
+          "hash": "L0tcx7EzeCu3N5xZ20F3hnkVVijS9nmZ2f6Sod4JIbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.EnumToToolbarAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.EnumToToolbarAttribute.html",
+          "hash": "gpHPoD4ijBORGHkhkeNaRY7BPtkJ1/Z48LO5KznMlcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.HideScriptFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.HideScriptFieldAttribute.html",
+          "hash": "ahDacVvvyThFXGPX9Ulm0wLK+XSWPWqw/UtVMp1QJLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.LabeledArrayAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.LabeledArrayAttribute.html",
+          "hash": "urcGIxHe8HwdXcZZ3SM2XkzkSybuFCs4yN/jq9o8geI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.LabeledAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.LabeledAttribute.html",
+          "hash": "Dp7n9CkuVPU0tUqr+qEW2fdqcSZOdifcP9479YisEc0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.OnValueChangedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.OnValueChangedAttribute.html",
+          "hash": "ZM+QSWqYpEghPmjM2Q6dgJ+i6aHAoxjRbWYf+gkQFm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.ReadOnlyAttribute.html",
+          "hash": "s0P8d8Fy5NlwlV+bMpbZyZySI+ipkFIYNWFtmB2Zgy8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.SearchObjectAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.SearchObjectAttribute.html",
+          "hash": "540x9NjM2nYWh/TyvXrGmx0RRxPBN2HYCbYvXRRRhbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.SplitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.SplitAttribute.html",
+          "hash": "YTFJzCwal3nNdeDuX68VXbR/sYVGvTiLCRZ9MHr8A7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Attributes.html",
+          "hash": "SEEyyZEjM0eOo04QmbjXVKkhpd15iW1PamcVideXryg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Enums.ReportSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Enums.ReportSource.html",
+          "hash": "ZWfiDmTPQdvoZBti1eWiksoijw9eUItEvCT0Wnlx65I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Enums.ReportType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Enums.ReportType.html",
+          "hash": "A6rJHrfOBqtbwdyO6d8poyMudLpvU2+uUmh/QW6+a0U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Enums.StartType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Enums.StartType.html",
+          "hash": "dzWAhq23XqRC+3uMP9N+3VLMIshF22RpnJzX7H2L7yo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Enums.html",
+          "hash": "uL/mG65BNAXw150IHRIqA5vywhLsQ4NXhZ/Ekp6Teuo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.ColorExtensions.html",
+          "hash": "hp4nGARgWP1e1o2t/03AOdwAaDHoyjuBw1W2CZMLe0c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.CoroutineExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.CoroutineExtensions.html",
+          "hash": "C2uIIFuPLpB7oSc1XWppSjNfZza19woEZyJHx/5Eco4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.GameObjectExtensions.html",
+          "hash": "AcJ2hU/u2n8zrtiWjKqslr5wC12bCTedWKC/XE6d8Es="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.IntExtensions.html",
+          "hash": "+5K++bQy25YmRN7TO6H8BAy0sUQpJNTwQgXjb2LvNaI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.InterfaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.InterfaceExtensions.html",
+          "hash": "HYBNKHsfhQOLdz4TL97uBSza7SvnO5Ris59JCBZxwbs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.RectTransformExtensions.AnchorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.RectTransformExtensions.AnchorType.html",
+          "hash": "gMJGJzQDaPQtEc5ceMh61HpM0UI2rHevkH11MtSgYmc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.RectTransformExtensions.RectSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.RectTransformExtensions.RectSide.html",
+          "hash": "rSxfVBaMl/klBI77BDOYV706OuEtUBAPA7G0ZZy+c90="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.RectTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.RectTransformExtensions.html",
+          "hash": "9pG6NBjk5dbAAICp0HjMx9pkjFo7gd+wVZV0mWl5ohQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionary-2.html",
+          "hash": "og86UHiKcr5JQiclhwoREs0Ep+BnDuk7lwhvlW8ywfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionary-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionary-3.html",
+          "hash": "+6nN56BP9atv3vfW+/CUvYrNki8H+O1Z/4WGKMECqd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionary.Storage-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionary.Storage-1.html",
+          "hash": "TXD66K/LBVuLjiMQ1gcjTXmJ/LhHP8aOlTEQw7jI2Q0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionary.html",
+          "hash": "mIbAAE73ryp7uhG2LLA/ytWKf1a6zew4bn6e+7KL2G4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionaryBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionaryBase-3.html",
+          "hash": "LN+FeOMfDSOJYeB3v2Zq0KiQzf6lZTQelId01kB/JNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionaryBase.Dictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionaryBase.Dictionary-2.html",
+          "hash": "kJCTo+JVOQzWMfGVma8vls2G7B1d8dqSKbO7wQlI+fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionaryBase.Storage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionaryBase.Storage.html",
+          "hash": "f5o/qKesFuLw9zm8XSHydoTUfnbmz6xr62bLOHiVTLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.SerializableDictionaryBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.SerializableDictionaryBase.html",
+          "hash": "HY8/GGeD4DaJ3vkB1OeYhlkfnYNlm65S6tlx91+tPNw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.StringsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.StringsExtensions.html",
+          "hash": "P3C3NhcHUOVO1vLEuDZhy6m52O8B5KOx39uEfbmQsxA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Extensions.html",
+          "hash": "A/ieq2D15leXV8D65xKpIi8OCt7Ub4VyWRWOLFEmwY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Cog-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Cog-1.html",
+          "hash": "Txkd5pRKEoj3Up2z9+GGfiVxrXAnhAPnb6a4tuzRo5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Controller-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Controller-1.html",
+          "hash": "I1ZKGHix6sLmu6iBqkv/GQfbO5LuCdm5PbASa6q3iLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Element.html",
+          "hash": "s2eOIypHoAVUk2XNu4Q0O48xPHCwKEx5WMV6gVvz4YU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Frame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Frame.html",
+          "hash": "KnSU30kn3kfoC1a8kNENxf6z6ccP39nkFfUO/D/1j3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Hull.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Hull.html",
+          "hash": "NmosDK8OziAdf3BRSq2JpAiz+BOM6mY8H1glc6CRR8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Manager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Manager-1.html",
+          "hash": "PDm0gq+qCB+bMm7XsycyaNffdetnaMadeEKEXCMM80Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Manager.html",
+          "hash": "Zt3FsRNsokrdRhIv/m9Khj6oJm5TjwEkRNyaIa0CyiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Module.html",
+          "hash": "m7QVCH1Q7u8hY996CXBOm6CcHOO372do10pgifLnkXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Warden.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Warden.html",
+          "hash": "yTj34ZX3S+fTLkFQI6Kb4Rf65bcJKmOHLkZMIWoDIXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.Worker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.Worker-1.html",
+          "hash": "+zgLJD3s5I2GUc2b7y3Y/ktV1EjVOXC4asS0dcCw8Hc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Framework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Framework.html",
+          "hash": "qvb0kQjLyyV4yeIMYJdrrv07unYIIEWacys168Y8mXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Interfaces.ICacheHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Interfaces.ICacheHandler.html",
+          "hash": "/h+mh33pyO8Tv212W651uzjALWaEnuOSdkvNb4KL6ow="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Interfaces.IOverseerHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Interfaces.IOverseerHandler.html",
+          "hash": "/QzfD0oXVo/pcl4upI1Q/YKavVprT5oBw8plrDSg69Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Interfaces.IRecordHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Interfaces.IRecordHandler.html",
+          "hash": "y7KYzIyiZIT0bz4UZ7UzD5pWqkUkPcHKlz8NpE0WugI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Interfaces.IWorkerHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Interfaces.IWorkerHandler.html",
+          "hash": "VkvJhjoMdE/Y3e9g3G0FbzWoDWOBvqpRdPArFG93JFs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Interfaces.html",
+          "hash": "RWpVHFQsQcGd32T33kyNP4WexHPqdV/zgAl99qFrYck="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Cipher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Cipher.html",
+          "hash": "KYj0vDPvVzfVLZlkwmHO+BnucmVMo4K0wiM1OGgwQ2U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Load.LoadHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Load.LoadHandler.html",
+          "hash": "uXDr+e5wM0KGa8gj8J9DPaNsDcDrzIoplz2X+nfQ/3k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Load.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Load.html",
+          "hash": "n+J3NHs954ou+JxuctDZIEGG9RRpUUoao8W/i1a9YF4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Memo.html",
+          "hash": "uaYf8lMJ5bL0XFYD77v97AMp3jjFxME5Eq4x28GJXAY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.PlayerPref.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.PlayerPref.html",
+          "hash": "VNa4vQ4ZrdqiZWZNT9CPL2Y7WXSiwezVeeEms6fNq8c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Report.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Report.html",
+          "hash": "sXJnZf1ZDKVEE9dZHsu75K4zfaLgfK1HSaOsAZvWJqY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Stamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Stamp.html",
+          "hash": "gGnLO6OtZFBK4nbQK+YWmK9nzJBluEj8KkssVeIHYls="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Utility.Cast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Utility.Cast.html",
+          "hash": "zrJDJcaX/uUPYjAehkDNVLgWea3MuK4EGL1LzyNn9g4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.Utility.html",
+          "hash": "+MBQuU0fytkToFtceemF5Zc+hbH0XI7Jf1MizQMkmDg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/AstarLibrary.Core.Utilitaries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AstarLibrary.Core.Utilitaries.html",
+          "hash": "KD4ODsfTxIVZox5ziVQKOW0u9bOIospNdyN1cCUF3GM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "0xrkhWYVWGCHdN8twBipmcTCCwWSJ2JofgJm5VSEclU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 58,
+          "skipped_file_count": 32
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
