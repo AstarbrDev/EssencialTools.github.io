@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.ReportType
+  commentId: T:AstarLibrary.Core.ReportType
+  id: ReportType
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.ReportType.Error
+  - AstarLibrary.Core.ReportType.Info
+  - AstarLibrary.Core.ReportType.Warning
+  langs:
+  - csharp
+  - vb
+  name: ReportType
+  nameWithType: ReportType
+  fullName: AstarLibrary.Core.ReportType
+  type: Enum
+  source:
+    id: ReportType
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportType.cs
+    startLine: 8
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum ReportType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum ReportType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: AstarLibrary.Core.ReportType.Info
+  commentId: F:AstarLibrary.Core.ReportType.Info
+  id: Info
+  parent: AstarLibrary.Core.ReportType
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: ReportType.Info
+  fullName: AstarLibrary.Core.ReportType.Info
+  type: Field
+  source:
+    id: Info
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportType.cs
+    startLine: 11
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Info = 0
+    return:
+      type: AstarLibrary.Core.ReportType
+- uid: AstarLibrary.Core.ReportType.Warning
+  commentId: F:AstarLibrary.Core.ReportType.Warning
+  id: Warning
+  parent: AstarLibrary.Core.ReportType
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: ReportType.Warning
+  fullName: AstarLibrary.Core.ReportType.Warning
+  type: Field
+  source:
+    id: Warning
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportType.cs
+    startLine: 12
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Warning = 1
+    return:
+      type: AstarLibrary.Core.ReportType
+- uid: AstarLibrary.Core.ReportType.Error
+  commentId: F:AstarLibrary.Core.ReportType.Error
+  id: Error
+  parent: AstarLibrary.Core.ReportType
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ReportType.Error
+  fullName: AstarLibrary.Core.ReportType.Error
+  type: Field
+  source:
+    id: Error
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportType.cs
+    startLine: 13
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Error = 2
+    return:
+      type: AstarLibrary.Core.ReportType
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: AstarLibrary.Core.ReportType
+  commentId: T:AstarLibrary.Core.ReportType
+  parent: AstarLibrary.Core
+  href: AstarLibrary.Core.ReportType.html
+  name: ReportType
+  nameWithType: ReportType
+  fullName: AstarLibrary.Core.ReportType

@@ -1,0 +1,530 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.Stamp
+  commentId: T:AstarLibrary.Core.Stamp
+  id: Stamp
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.Stamp.Clock
+  - AstarLibrary.Core.Stamp.FinishTimer
+  - AstarLibrary.Core.Stamp.MarkTimeNow
+  - AstarLibrary.Core.Stamp.MarktTime
+  - AstarLibrary.Core.Stamp.StartTimer
+  - AstarLibrary.Core.Stamp.SystemInitializeSequency
+  langs:
+  - csharp
+  - vb
+  name: Stamp
+  nameWithType: Stamp
+  fullName: AstarLibrary.Core.Stamp
+  type: Class
+  source:
+    id: Stamp
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 9
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static class Stamp
+    content.vb: Public Module Stamp
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: AstarLibrary.Core.Stamp.SystemInitializeSequency
+  commentId: M:AstarLibrary.Core.Stamp.SystemInitializeSequency
+  id: SystemInitializeSequency
+  parent: AstarLibrary.Core.Stamp
+  langs:
+  - csharp
+  - vb
+  name: SystemInitializeSequency()
+  nameWithType: Stamp.SystemInitializeSequency()
+  fullName: AstarLibrary.Core.Stamp.SystemInitializeSequency()
+  type: Method
+  source:
+    id: SystemInitializeSequency
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 13
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float SystemInitializeSequency()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SystemInitializeSequency() As Single
+  overload: AstarLibrary.Core.Stamp.SystemInitializeSequency*
+- uid: AstarLibrary.Core.Stamp.Clock
+  commentId: F:AstarLibrary.Core.Stamp.Clock
+  id: Clock
+  parent: AstarLibrary.Core.Stamp
+  langs:
+  - csharp
+  - vb
+  name: Clock
+  nameWithType: Stamp.Clock
+  fullName: AstarLibrary.Core.Stamp.Clock
+  type: Field
+  source:
+    id: Clock
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 18
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static Stopwatch Clock
+    return:
+      type: System.Diagnostics.Stopwatch
+    content.vb: Public Shared Clock As Stopwatch
+- uid: AstarLibrary.Core.Stamp.StartTimer
+  commentId: M:AstarLibrary.Core.Stamp.StartTimer
+  id: StartTimer
+  parent: AstarLibrary.Core.Stamp
+  langs:
+  - csharp
+  - vb
+  name: StartTimer()
+  nameWithType: Stamp.StartTimer()
+  fullName: AstarLibrary.Core.Stamp.StartTimer()
+  type: Method
+  source:
+    id: StartTimer
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 22
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static string StartTimer()
+    return:
+      type: System.String
+    content.vb: Public Shared Function StartTimer() As String
+  overload: AstarLibrary.Core.Stamp.StartTimer*
+- uid: AstarLibrary.Core.Stamp.MarktTime
+  commentId: M:AstarLibrary.Core.Stamp.MarktTime
+  id: MarktTime
+  parent: AstarLibrary.Core.Stamp
+  langs:
+  - csharp
+  - vb
+  name: MarktTime()
+  nameWithType: Stamp.MarktTime()
+  fullName: AstarLibrary.Core.Stamp.MarktTime()
+  type: Method
+  source:
+    id: MarktTime
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 28
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static string MarktTime()
+    return:
+      type: System.String
+    content.vb: Public Shared Function MarktTime() As String
+  overload: AstarLibrary.Core.Stamp.MarktTime*
+- uid: AstarLibrary.Core.Stamp.FinishTimer
+  commentId: M:AstarLibrary.Core.Stamp.FinishTimer
+  id: FinishTimer
+  parent: AstarLibrary.Core.Stamp
+  langs:
+  - csharp
+  - vb
+  name: FinishTimer()
+  nameWithType: Stamp.FinishTimer()
+  fullName: AstarLibrary.Core.Stamp.FinishTimer()
+  type: Method
+  source:
+    id: FinishTimer
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 29
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static string FinishTimer()
+    return:
+      type: System.String
+    content.vb: Public Shared Function FinishTimer() As String
+  overload: AstarLibrary.Core.Stamp.FinishTimer*
+- uid: AstarLibrary.Core.Stamp.MarkTimeNow
+  commentId: M:AstarLibrary.Core.Stamp.MarkTimeNow
+  id: MarkTimeNow
+  parent: AstarLibrary.Core.Stamp
+  langs:
+  - csharp
+  - vb
+  name: MarkTimeNow()
+  nameWithType: Stamp.MarkTimeNow()
+  fullName: AstarLibrary.Core.Stamp.MarkTimeNow()
+  type: Method
+  source:
+    id: MarkTimeNow
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Utilitary\Stamp.cs
+    startLine: 35
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static string MarkTimeNow()
+    return:
+      type: System.String
+    content.vb: Public Shared Function MarkTimeNow() As String
+  overload: AstarLibrary.Core.Stamp.MarkTimeNow*
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AstarLibrary.Core.Stamp.SystemInitializeSequency*
+  commentId: Overload:AstarLibrary.Core.Stamp.SystemInitializeSequency
+  href: AstarLibrary.Core.Stamp.html#AstarLibrary.Core.Stamp.SystemInitializeSequency
+  name: SystemInitializeSequency
+  nameWithType: Stamp.SystemInitializeSequency
+  fullName: AstarLibrary.Core.Stamp.SystemInitializeSequency
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Diagnostics.Stopwatch
+  commentId: T:System.Diagnostics.Stopwatch
+  parent: System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.stopwatch
+  name: Stopwatch
+  nameWithType: Stopwatch
+  fullName: System.Diagnostics.Stopwatch
+- uid: System.Diagnostics
+  commentId: N:System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Diagnostics
+  nameWithType: System.Diagnostics
+  fullName: System.Diagnostics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
+- uid: AstarLibrary.Core.Stamp.StartTimer*
+  commentId: Overload:AstarLibrary.Core.Stamp.StartTimer
+  href: AstarLibrary.Core.Stamp.html#AstarLibrary.Core.Stamp.StartTimer
+  name: StartTimer
+  nameWithType: Stamp.StartTimer
+  fullName: AstarLibrary.Core.Stamp.StartTimer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AstarLibrary.Core.Stamp.MarktTime*
+  commentId: Overload:AstarLibrary.Core.Stamp.MarktTime
+  href: AstarLibrary.Core.Stamp.html#AstarLibrary.Core.Stamp.MarktTime
+  name: MarktTime
+  nameWithType: Stamp.MarktTime
+  fullName: AstarLibrary.Core.Stamp.MarktTime
+- uid: AstarLibrary.Core.Stamp.FinishTimer*
+  commentId: Overload:AstarLibrary.Core.Stamp.FinishTimer
+  href: AstarLibrary.Core.Stamp.html#AstarLibrary.Core.Stamp.FinishTimer
+  name: FinishTimer
+  nameWithType: Stamp.FinishTimer
+  fullName: AstarLibrary.Core.Stamp.FinishTimer
+- uid: AstarLibrary.Core.Stamp.MarkTimeNow*
+  commentId: Overload:AstarLibrary.Core.Stamp.MarkTimeNow
+  href: AstarLibrary.Core.Stamp.html#AstarLibrary.Core.Stamp.MarkTimeNow
+  name: MarkTimeNow
+  nameWithType: Stamp.MarkTimeNow
+  fullName: AstarLibrary.Core.Stamp.MarkTimeNow

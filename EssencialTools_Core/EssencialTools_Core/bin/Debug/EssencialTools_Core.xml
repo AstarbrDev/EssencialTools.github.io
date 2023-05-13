@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EssencialTools_Core</name>
+    </assembly>
+    <members>
+        <member name="T:AstarLibrary.Core.ConditionalFieldAttribute">
+            <summary>
+            Attribute to help edition
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.HideScriptFieldAttribute">
+            <summary>
+            Hides script monobehaviour
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.LabeledArrayAttribute">
+            <summary>
+            Label array Attribute
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.Cog`1">
+            <summary>
+            Unique Systems
+            </summary>
+            <typeparam name="T">Unique System</typeparam>
+        </member>
+        <member name="T:AstarLibrary.Core.Controller`1">
+            <summary>
+            Component Type Controller
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:AstarLibrary.Core.Element">
+            <summary>
+            Simple Component
+            </summary>
+            
+        </member>
+        <member name="T:AstarLibrary.Core.Frame">
+            <summary>
+            Component Partial
+            </summary>
+            
+        </member>
+        <member name="T:AstarLibrary.Core.Hull">
+            <summary>
+            Component Complex
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.Manager">
+            <summary>
+            Manager Component Type
+            </summary>
+            
+        </member>
+        <member name="T:AstarLibrary.Core.Manager`1">
+            <summary>
+            Unique Manager Component Type
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:AstarLibrary.Core.Module">
+            <summary>
+            Base Component
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.Warden">
+            <summary>
+            Oveerseer of Workers
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.Worker`1">
+            <summary>
+            Connector of all Logics
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.FindObjectByInstanceID(UnityEngine.GameObject,System.Int32)">
+            <summary>
+            Find Object by Instance ID
+            </summary>
+            <param name="obj"></param>
+            <param name="instanceID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.FindInHierarchyInative(UnityEngine.GameObject,System.String)">
+            <summary>
+            Find object not attach to script in hierarchy.
+            </summary>
+            <returns>The in hierarchy.</returns>
+            <param name="name">Name of object to be found on hierarchy.</param>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.GetChild``1(UnityEngine.GameObject,System.String)">
+            <summary>
+            Get the child base on name
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.GetChild``1(UnityEngine.GameObject)">
+            <summary>
+            Get the child base on name
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.GetFather(UnityEngine.GameObject,System.String)">
+            <summary>
+            Gets the father based on GameObject.
+            </summary>
+            <returns>The father.</returns>
+            <param name="obj"> GameObject that contains father.</param>
+            <param name="name"> Name of the father to be found.</param>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.GetFather(UnityEngine.GameObject)">
+            <summary>
+            Gets the father by GameObject Only.
+            </summary>
+            <returns>The father.</returns>
+            <param name="obj"> Get's the first GameObject father of hierarchy</param>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.CopyComponent``1(UnityEngine.GameObject,``0)">
+            <summary>
+            Copy Component's
+            </summary>
+            <returns>Copy selected component's.</returns>
+            <param name="componente">Component.</param>
+            <param name="destiny">Game object to Paste.</param>
+            <typeparam name="T">Object.GetComponent(Typeof).</typeparam>
+        </member>
+        <member name="M:AstarLibrary.Core.GameObjectExtensions.CopyComponent``1(UnityEngine.GameObject,UnityEngine.GameObject,``0)">
+            <summary>
+            Copy Component's
+            </summary>
+            <returns>Copy selected component's.</returns>
+            <param name="componente">Component.</param>
+            <param name="destiny">Game object to Paste.</param>
+            <typeparam name="T">Object.GetComponent(Typeof).</typeparam>
+        </member>
+        <member name="M:AstarLibrary.Core.IntExtensions.GFC(System.Int32,System.Int32)">
+            <summary>
+            Greate Factoryal Common
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.IntExtensions.MMC(System.Int32,System.Int32)">
+            <summary>
+            Minimum Multiple Common
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.StringsExtensions.ReplaceValues(System.String[],System.String[])">
+            <summary>
+            Replace Values of this array with New Array
+            </summary>
+            <param name="line"></param>
+            <param name="newArray"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.StringsExtensions.StringSplitter(System.String,System.Char[])">
+            <summary>
+            Split string based on Characters
+            </summary>
+            <param name="tosplit"></param>
+            <param name="chars"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.StringsExtensions.StringCut(System.String,System.Int32,System.Int32)">
+            <summary>
+            Cut string based on letter position
+            </summary>
+            <param name="toCut"></param>
+            <param name="initialCharLength"></param>
+            <param name="finalCharLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.StringsExtensions.AddCharacterToString(System.String,System.Char)">
+            <summary>
+            Add char to a string
+            </summary>
+            <param name="toModify"></param>
+            <param name="toAdd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(System.String,System.String)">
+            <summary>
+            Remove special characters
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AstarLibrary.Core.Cipher">
+            <summary>
+            Interface of Cipher
+            </summary>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.GenerateKey">
+            <summary>
+            Generate a new key each time its called
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.GeneratePassword">
+            <summary>
+            Generate a new password for strings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.Encrypt(System.String,System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            Advanced Encryption System (AES) then Authentication (HMAC) for a UTF8 Message.
+            </summary>
+            <param name="secretMessage">The secret message.</param>
+            <param name="cryptKey">The crypt key.</param>
+            <param name="authKey">The auth key.</param>
+            <param name="nonSecretPayload">(Optional) Non-Secret Payload.</param>
+            <returns>
+            Encrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">Secret Message Required!;secretMessage</exception>
+            <remarks>
+            Adds overhead of (Optional-Payload + BlockSize(16) + Message-Padded-To-Blocksize +  HMac-Tag(32)) * 1.33 Base64
+            </remarks>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.Encrypt(System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            Advanced Encryption System (AES) then Athenthication (HMAC) with bytes
+            </summary>
+            <param name="secretMessage"></param>
+            <param name="cryptKey"></param>
+            <param name="authKey"></param>
+            <param name="nonSecretPayload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.EncryptWithPassword(System.String,System.String,System.Byte[])">
+            <summary>
+            Advanced Encryption System (AES) then Authentication (HMAC) of a UTF8 message
+            using Keys derived from a Password (PBKDF2).
+            </summary>
+            <param name="secretMessage">The secret message.</param>
+            <param name="password">The password.</param>
+            <param name="nonSecretPayload">The non secret payload.</param>
+            <returns>
+            Encrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">password</exception>
+            <remarks>
+            Significantly less secure than using random binary keys.
+            Adds additional non secret payload for key generation parameters.
+            </remarks>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.EncryptWithPassword(System.Byte[],System.String,System.Byte[])">
+            <summary>
+            Advanced Encryption System (AES) then Authentication (HMAC) of a byte array
+            using Keys derived from a Password (PBKDF2).
+            </summary>
+            <param name="secretMessage">The secret message.</param>
+            <param name="password">The password.</param>
+            <param name="nonSecretPayload">The non secret payload.</param>
+            <returns>
+            Encrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">password</exception>
+            <remarks>
+            Significantly less secure than using random binary keys.
+            Adds additional non secret payload for key generation parameters.
+            </remarks>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.Decrypt(System.String,System.Byte[],System.Byte[],System.Int32)">
+            <summary>
+            Authentication (HMAC) then Decryption (AES) for a secrets UTF8 Message.
+            </summary>
+            <param name="encryptedMessage">The encrypted message.</param>
+            <param name="cryptKey">The crypt key.</param>
+            <param name="authKey">The auth key.</param>
+            <param name="nonSecretPayloadLength">Length of the non secret payload.</param>
+            <returns>
+            Decrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">Encrypted Message Required!;encryptedMessage</exception>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.DecryptWithPassword(System.String,System.String,System.Int32)">
+            <summary>
+            Authentication (HMAC) and then Descryption (AES) of a UTF8 Message
+            using keys derived from a password (PBKDF2). 
+            </summary>
+            <param name="encryptedMessage">The encrypted message.</param>
+            <param name="password">The password.</param>
+            <param name="nonSecretPayloadLength">Length of the non secret payload.</param>
+            <returns>
+            Decrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">Encrypted Message Required!;encryptedMessage</exception>
+            <remarks>
+            Significantly less secure than using random binary keys.
+            </remarks>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.Decrypt(System.Byte[],System.Byte[],System.Byte[],System.Int32)">
+            <summary>
+            Authentication (HMAC) then Decryption (AES) for a secrets byte.
+            </summary>
+            <param name="encryptedMessage">The encrypted message.</param>
+            <param name="cryptKey">The crypt key.</param>
+            <param name="authKey">The auth key.</param>
+            <param name="nonSecretPayloadLength">Length of the non secret payload.</param>
+            <returns>
+            Decrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">Encrypted Message Required!;encryptedMessage</exception>
+        </member>
+        <member name="M:AstarLibrary.Core.Cipher.DecryptWithPassword(System.Byte[],System.String,System.Int32)">
+            <summary>
+            Authentication (HMAC) then Decryption (AES) for a secrets byte.
+            </summary>
+            <param name="encryptedMessage">The encrypted message.</param>
+            <param name="cryptKey">The crypt key.</param>
+            <param name="authKey">The auth key.</param>
+            <param name="nonSecretPayloadLength">Length of the non secret payload.</param>
+            <returns>
+            Decrypted Message
+            </returns>
+            <exception cref="T:System.ArgumentException">Encrypted Message Required!;encryptedMessage</exception>
+        </member>
+        <member name="T:AstarLibrary.Core.Load">
+            <summary>
+            Interface of Load
+            </summary>
+        </member>
+        <member name="T:AstarLibrary.Core.Utility.Cast">
+            <summary>
+            Converts a data type to another data type.
+            </summary>
+        </member>
+        <member name="M:AstarLibrary.Core.Utility.Cast.To``1(System.Object,``0)">
+            <summary>
+            Converts input to Type of default value or given as typeparam T
+            </summary>
+            <typeparam name="T">typeparam is the type in which value will be returned, it could be any type eg. int, string, bool, decimal etc.</typeparam>
+            <param name="input">Input that need to be converted to specified type</param>
+            <param name="defaultValue">defaultValue will be returned in case of value is null or any exception occures</param>
+            <returns>Input is converted in Type of default value or given as typeparam T and returned</returns>
+        </member>
+        <member name="M:AstarLibrary.Core.Utility.Cast.To``1(System.Object)">
+            <summary>
+            Converts input to Type of typeparam T
+            </summary>
+            <typeparam name="T">typeparam is the type in which value will be returned, it could be any type eg. int, string, bool, decimal etc.</typeparam>
+            <param name="input">Input that need to be converted to specified type</param>
+            <returns>Input is converted in Type of default value or given as typeparam T and returned</returns>
+        </member>
+    </members>
+</doc>

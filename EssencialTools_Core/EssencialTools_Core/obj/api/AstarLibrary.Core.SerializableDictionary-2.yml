@@ -1,0 +1,2742 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.SerializableDictionary`2
+  commentId: T:AstarLibrary.Core.SerializableDictionary`2
+  id: SerializableDictionary`2
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.SerializableDictionary`2.#ctor
+  - AstarLibrary.Core.SerializableDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  - AstarLibrary.Core.SerializableDictionary`2.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - AstarLibrary.Core.SerializableDictionary`2.GetValue(`1[],System.Int32)
+  - AstarLibrary.Core.SerializableDictionary`2.SetValue(`1[],System.Int32,`1)
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary<TKey, TValue>
+  nameWithType: SerializableDictionary<TKey, TValue>
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>
+  type: Class
+  source:
+    id: SerializableDictionary
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\SerializableDictionary.cs
+    startLine: 226
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerializableDictionary<TKey, TValue> : SerializableDictionaryBase<TKey, TValue, TValue>, IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IDictionary, ICollection, IEnumerable, ISerializationCallbackReceiver, IDeserializationCallback, ISerializable
+    typeParameters:
+    - id: TKey
+    - id: TValue
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerializableDictionary(Of TKey, TValue) Inherits SerializableDictionaryBase(Of TKey, TValue, TValue) Implements IDictionary(Of TKey, TValue), ICollection(Of KeyValuePair(Of TKey, TValue)), IEnumerable(Of KeyValuePair(Of TKey, TValue)), IDictionary, ICollection, IEnumerable, ISerializationCallbackReceiver, IDeserializationCallback, ISerializable
+  inheritance:
+  - System.Object
+  - AstarLibrary.Core.SerializableDictionaryBase
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  implements:
+  - System.Collections.Generic.IDictionary{{TKey},{TValue}}
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
+  - System.Collections.IDictionary
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - UnityEngine.ISerializationCallbackReceiver
+  - System.Runtime.Serialization.IDeserializationCallback
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.SetValue({TValue}[],System.Int32,{TValue})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetValue({TValue}[],System.Int32)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.CopyFrom(System.Collections.Generic.IDictionary{{TKey},{TValue}})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.OnAfterDeserialize
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.OnBeforeSerialize
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Keys
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Values
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Count
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.IsReadOnly
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Item({TKey})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Add({TKey},{TValue})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.ContainsKey({TKey})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Remove({TKey})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.TryGetValue({TKey},{TValue}@)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Add(System.Collections.Generic.KeyValuePair{{TKey},{TValue}})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Clear
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Contains(System.Collections.Generic.KeyValuePair{{TKey},{TValue}})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.CopyTo(System.Collections.Generic.KeyValuePair{{TKey},{TValue}}[],System.Int32)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Remove(System.Collections.Generic.KeyValuePair{{TKey},{TValue}})
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetEnumerator
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.IsFixedSize
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.IsSynchronized
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.SyncRoot
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Item(System.Object)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Add(System.Object,System.Object)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Contains(System.Object)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Remove(System.Object)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.CopyTo(System.Array,System.Int32)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.OnDeserialization(System.Object)
+  - AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue)
+  name.vb: SerializableDictionary(Of TKey, TValue)
+- uid: AstarLibrary.Core.SerializableDictionary`2.#ctor
+  commentId: M:AstarLibrary.Core.SerializableDictionary`2.#ctor
+  id: '#ctor'
+  parent: AstarLibrary.Core.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary()
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary()
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.SerializableDictionary()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\SerializableDictionary.cs
+    startLine: 229
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public SerializableDictionary()
+    content.vb: Public Sub New()
+  overload: AstarLibrary.Core.SerializableDictionary`2.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New()
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).New()
+  name.vb: New()
+- uid: AstarLibrary.Core.SerializableDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  commentId: M:AstarLibrary.Core.SerializableDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})
+  id: '#ctor(System.Collections.Generic.IDictionary{`0,`1})'
+  parent: AstarLibrary.Core.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary(IDictionary<TKey, TValue>)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary(IDictionary<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.SerializableDictionary(System.Collections.Generic.IDictionary<TKey, TValue>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\SerializableDictionary.cs
+    startLine: 230
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public SerializableDictionary(IDictionary<TKey, TValue> dict)
+    parameters:
+    - id: dict
+      type: System.Collections.Generic.IDictionary{{TKey},{TValue}}
+    content.vb: Public Sub New(dict As IDictionary(Of TKey, TValue))
+  overload: AstarLibrary.Core.SerializableDictionary`2.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New(IDictionary(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).New(System.Collections.Generic.IDictionary(Of TKey, TValue))
+  name.vb: New(IDictionary(Of TKey, TValue))
+- uid: AstarLibrary.Core.SerializableDictionary`2.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:AstarLibrary.Core.SerializableDictionary`2.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: AstarLibrary.Core.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary(SerializationInfo, StreamingContext)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary(SerializationInfo, StreamingContext)
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.SerializableDictionary(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\SerializableDictionary.cs
+    startLine: 231
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: protected SerializableDictionary(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: AstarLibrary.Core.SerializableDictionary`2.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New(SerializationInfo, StreamingContext)
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+- uid: AstarLibrary.Core.SerializableDictionary`2.GetValue(`1[],System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionary`2.GetValue(`1[],System.Int32)
+  id: GetValue(`1[],System.Int32)
+  parent: AstarLibrary.Core.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetValue(TValue[], int)
+  nameWithType: SerializableDictionary<TKey, TValue>.GetValue(TValue[], int)
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.GetValue(TValue[], int)
+  type: Method
+  source:
+    id: GetValue
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\SerializableDictionary.cs
+    startLine: 233
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  example: []
+  syntax:
+    content: protected override TValue GetValue(TValue[] storage, int i)
+    parameters:
+    - id: storage
+      type: '{TValue}[]'
+    - id: i
+      type: System.Int32
+    return:
+      type: '{TValue}'
+    content.vb: Protected Overrides Function GetValue(storage As TValue(), i As Integer) As TValue
+  overridden: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetValue({TValue}[],System.Int32)
+  overload: AstarLibrary.Core.SerializableDictionary`2.GetValue*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).GetValue(TValue(), Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).GetValue(TValue(), Integer)
+  name.vb: GetValue(TValue(), Integer)
+- uid: AstarLibrary.Core.SerializableDictionary`2.SetValue(`1[],System.Int32,`1)
+  commentId: M:AstarLibrary.Core.SerializableDictionary`2.SetValue(`1[],System.Int32,`1)
+  id: SetValue(`1[],System.Int32,`1)
+  parent: AstarLibrary.Core.SerializableDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: SetValue(TValue[], int, TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.SetValue(TValue[], int, TValue)
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.SetValue(TValue[], int, TValue)
+  type: Method
+  source:
+    id: SetValue
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\SerializableDictionary.cs
+    startLine: 238
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  example: []
+  syntax:
+    content: protected override void SetValue(TValue[] storage, int i, TValue value)
+    parameters:
+    - id: storage
+      type: '{TValue}[]'
+    - id: i
+      type: System.Int32
+    - id: value
+      type: '{TValue}'
+    content.vb: Protected Overrides Sub SetValue(storage As TValue(), i As Integer, value As TValue)
+  overridden: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.SetValue({TValue}[],System.Int32,{TValue})
+  overload: AstarLibrary.Core.SerializableDictionary`2.SetValue*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SetValue(TValue(), Integer, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).SetValue(TValue(), Integer, TValue)
+  name.vb: SetValue(TValue(), Integer, TValue)
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AstarLibrary.Core.SerializableDictionaryBase
+  commentId: T:AstarLibrary.Core.SerializableDictionaryBase
+  parent: AstarLibrary.Core
+  href: AstarLibrary.Core.SerializableDictionaryBase.html
+  name: SerializableDictionaryBase
+  nameWithType: SerializableDictionaryBase
+  fullName: AstarLibrary.Core.SerializableDictionaryBase
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  commentId: T:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}
+  parent: AstarLibrary.Core
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html
+  name: SerializableDictionaryBase<TKey, TValue, TValue>
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue)
+  name.vb: SerializableDictionaryBase(Of TKey, TValue, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3
+    name: SerializableDictionaryBase
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3
+    name: SerializableDictionaryBase
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.IDictionary{{TKey},{TValue}}
+  commentId: T:System.Collections.Generic.IDictionary{`0,`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
+  commentId: T:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{`0,`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<KeyValuePair<TKey, TValue>>
+  nameWithType: ICollection<KeyValuePair<TKey, TValue>>
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey, TValue>>
+  nameWithType.vb: ICollection(Of KeyValuePair(Of TKey, TValue))
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: ICollection(Of KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<TKey, TValue>>
+  nameWithType: IEnumerable<KeyValuePair<TKey, TValue>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of TKey, TValue))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: IEnumerable(Of KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.IDictionary
+  commentId: T:System.Collections.IDictionary
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.idictionary
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: System.Collections.IDictionary
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: UnityEngine.ISerializationCallbackReceiver
+  commentId: T:UnityEngine.ISerializationCallbackReceiver
+  parent: UnityEngine
+  isExternal: true
+  name: ISerializationCallbackReceiver
+  nameWithType: ISerializationCallbackReceiver
+  fullName: UnityEngine.ISerializationCallbackReceiver
+- uid: System.Runtime.Serialization.IDeserializationCallback
+  commentId: T:System.Runtime.Serialization.IDeserializationCallback
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.ideserializationcallback
+  name: IDeserializationCallback
+  nameWithType: IDeserializationCallback
+  fullName: System.Runtime.Serialization.IDeserializationCallback
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.SetValue({TValue}[],System.Int32,{TValue})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SetValue(`1[],System.Int32,`1)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SetValue(`1[],System.Int32,`1)
+  name: SetValue(TValue[], int, TValue)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.SetValue(TValue[], int, TValue)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.SetValue(TValue[], int, TValue)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).SetValue(TValue(), Integer, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).SetValue(TValue(), Integer, TValue)
+  name.vb: SetValue(TValue(), Integer, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SetValue(`1[],System.Int32,`1)
+    name: SetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SetValue(`1[],System.Int32,`1)
+  - name: (
+  - name: TValue
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SetValue(`1[],System.Int32,`1)
+    name: SetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SetValue(`1[],System.Int32,`1)
+  - name: (
+  - name: TValue
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetValue({TValue}[],System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetValue(`1[],System.Int32)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetValue(`1[],System.Int32)
+  name: GetValue(TValue[], int)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.GetValue(TValue[], int)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.GetValue(TValue[], int)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).GetValue(TValue(), Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).GetValue(TValue(), Integer)
+  name.vb: GetValue(TValue(), Integer)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetValue(`1[],System.Int32)
+    name: GetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetValue(`1[],System.Int32)
+  - name: (
+  - name: TValue
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetValue(`1[],System.Int32)
+    name: GetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetValue(`1[],System.Int32)
+  - name: (
+  - name: TValue
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.CopyFrom(System.Collections.Generic.IDictionary{{TKey},{TValue}})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  name: CopyFrom(IDictionary<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.CopyFrom(IDictionary<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.CopyFrom(System.Collections.Generic.IDictionary<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).CopyFrom(IDictionary(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).CopyFrom(System.Collections.Generic.IDictionary(Of TKey, TValue))
+  name.vb: CopyFrom(IDictionary(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+    name: CopyFrom
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+    name: CopyFrom
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.OnAfterDeserialize
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnAfterDeserialize
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.OnAfterDeserialize()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.OnAfterDeserialize()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).OnAfterDeserialize()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).OnAfterDeserialize()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnAfterDeserialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnAfterDeserialize
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.OnBeforeSerialize
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnBeforeSerialize
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.OnBeforeSerialize()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.OnBeforeSerialize()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).OnBeforeSerialize()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).OnBeforeSerialize()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnBeforeSerialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnBeforeSerialize
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Keys
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Keys
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Keys
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Keys
+  name: Keys
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Keys
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Keys
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Keys
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Keys
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Values
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Values
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Values
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Values
+  name: Values
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Values
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Values
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Values
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Values
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Count
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Count
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Count
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Count
+  name: Count
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Count
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Count
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Count
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Count
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.IsReadOnly
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.IsReadOnly
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.IsReadOnly
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.IsReadOnly
+  name: IsReadOnly
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.IsReadOnly
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.IsReadOnly
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).IsReadOnly
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).IsReadOnly
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Item({TKey})
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(`0)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Item(`0)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(`0)
+  name: this[TKey]
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.this[TKey]
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.this[TKey]
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).this[](TKey)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(`0)
+    name: this[]
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(`0)
+  - name: (
+  - name: TKey
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Add({TKey},{TValue})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(`0,`1)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(`0,`1)
+  name: Add(TKey, TValue)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Add(TKey, TValue)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Add(TKey, TValue)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Add(TKey, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Add(TKey, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(`0,`1)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(`0,`1)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(`0,`1)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(`0,`1)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.ContainsKey({TKey})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.ContainsKey(`0)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.ContainsKey(TKey)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.ContainsKey(TKey)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).ContainsKey(TKey)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).ContainsKey(TKey)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.ContainsKey(`0)
+    name: ContainsKey
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.ContainsKey(`0)
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.ContainsKey(`0)
+    name: ContainsKey
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.ContainsKey(`0)
+  - name: (
+  - name: TKey
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Remove({TKey})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(`0)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(`0)
+  name: Remove(TKey)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Remove(TKey)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Remove(TKey)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Remove(TKey)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Remove(TKey)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(`0)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(`0)
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(`0)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(`0)
+  - name: (
+  - name: TKey
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.TryGetValue({TKey},{TValue}@)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.TryGetValue(`0,`1@)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.TryGetValue(`0,`1@)
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.TryGetValue(TKey, out TValue)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).TryGetValue(TKey, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.TryGetValue(`0,`1@)
+    name: TryGetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.TryGetValue(`0,`1@)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.TryGetValue(`0,`1@)
+    name: TryGetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.TryGetValue(`0,`1@)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Add(System.Collections.Generic.KeyValuePair{{TKey},{TValue}})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Add(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Add(KeyValuePair<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Add(KeyValuePair(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Add(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Clear
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Clear
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Clear
+  name: Clear()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Clear()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Clear()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Clear()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Clear()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Clear
+    name: Clear
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Clear
+    name: Clear
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Clear
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Contains(System.Collections.Generic.KeyValuePair{{TKey},{TValue}})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Contains(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Contains(KeyValuePair<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Contains(KeyValuePair(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Contains(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.CopyTo(System.Collections.Generic.KeyValuePair{{TKey},{TValue}}[],System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name: CopyTo(KeyValuePair<TKey, TValue>[], int)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], int)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], int)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), Integer)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Remove(System.Collections.Generic.KeyValuePair{{TKey},{TValue}})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Remove(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Remove(KeyValuePair<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Remove(KeyValuePair(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Remove(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetEnumerator
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetEnumerator
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.GetEnumerator()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.GetEnumerator()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).GetEnumerator()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).GetEnumerator()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetEnumerator
+    name: GetEnumerator
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetEnumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetEnumerator
+    name: GetEnumerator
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetEnumerator
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.IsFixedSize
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.IsFixedSize
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.IsFixedSize
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.IsFixedSize
+  name: IsFixedSize
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.IsFixedSize
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.IsFixedSize
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).IsFixedSize
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).IsFixedSize
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.IsSynchronized
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.IsSynchronized
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.IsSynchronized
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.IsSynchronized
+  name: IsSynchronized
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.IsSynchronized
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.IsSynchronized
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).IsSynchronized
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).IsSynchronized
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.SyncRoot
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SyncRoot
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.SyncRoot
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.SyncRoot
+  name: SyncRoot
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.SyncRoot
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.SyncRoot
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).SyncRoot
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).SyncRoot
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Item(System.Object)
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(System.Object)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Item(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.this[object]
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.this[object]
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).this[](Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).this[](Object)
+  name.vb: this[](Object)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ']'
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(System.Object)
+    name: this[]
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Item(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Add(System.Object,System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Object,System.Object)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Object,System.Object)
+  name: Add(object, object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Add(object, object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Add(object, object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Add(Object, Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Add(Object, Object)
+  name.vb: Add(Object, Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Object,System.Object)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Object,System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Object,System.Object)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Add(System.Object,System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Contains(System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Object)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Object)
+  name: Contains(object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Contains(object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Contains(object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Contains(Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Contains(Object)
+  name.vb: Contains(Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Object)
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Object)
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Contains(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.Remove(System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Object)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Object)
+  name: Remove(object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.Remove(object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.Remove(object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).Remove(Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).Remove(Object)
+  name.vb: Remove(Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Object)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Object)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.Remove(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.CopyTo(System.Array,System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Array,System.Int32)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Array,System.Int32)
+  name: CopyTo(Array, int)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.CopyTo(Array, int)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.CopyTo(System.Array, int)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).CopyTo(Array, Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).CopyTo(System.Array, Integer)
+  name.vb: CopyTo(Array, Integer)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Array,System.Int32)
+  - name: (
+  - uid: System.Array
+    name: Array
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.CopyTo(System.Array,System.Int32)
+  - name: (
+  - uid: System.Array
+    name: Array
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.OnDeserialization(System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnDeserialization(System.Object)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnDeserialization(System.Object)
+  name: OnDeserialization(object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.OnDeserialization(object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.OnDeserialization(object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).OnDeserialization(Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).OnDeserialization(Object)
+  name.vb: OnDeserialization(Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnDeserialization(System.Object)
+    name: OnDeserialization
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnDeserialization(System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnDeserialization(System.Object)
+    name: OnDeserialization
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.OnDeserialization(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: AstarLibrary.Core.SerializableDictionaryBase{{TKey},{TValue},{TValue}}
+  definition: AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValue>.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValue>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValue).GetObjectData(SerializationInfo, StreamingContext)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValue).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    href: AstarLibrary.Core.SerializableDictionaryBase{-0,-1,-1}.html#AstarLibrary.Core.SerializableDictionaryBase{`0,`1,`1}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3
+  commentId: T:AstarLibrary.Core.SerializableDictionaryBase`3
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html
+  name: SerializableDictionaryBase<TKey, TValue, TValueStorage>
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage)
+  name.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3
+    name: SerializableDictionaryBase
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TValueStorage
+  - name: '>'
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3
+    name: SerializableDictionaryBase
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TValueStorage
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+  name: SetValue(TValueStorage[], int, TValue)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.SetValue(TValueStorage[], int, TValue)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.SetValue(TValueStorage[], int, TValue)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).SetValue(TValueStorage(), Integer, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).SetValue(TValueStorage(), Integer, TValue)
+  name.vb: SetValue(TValueStorage(), Integer, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+    name: SetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+  - name: (
+  - name: TValueStorage
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+    name: SetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.SetValue(`2[],System.Int32,`1)
+  - name: (
+  - name: TValueStorage
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+  name: GetValue(TValueStorage[], int)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.GetValue(TValueStorage[], int)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.GetValue(TValueStorage[], int)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).GetValue(TValueStorage(), Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).GetValue(TValueStorage(), Integer)
+  name.vb: GetValue(TValueStorage(), Integer)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+    name: GetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+  - name: (
+  - name: TValueStorage
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+    name: GetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetValue(`2[],System.Int32)
+  - name: (
+  - name: TValueStorage
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  name: CopyFrom(IDictionary<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.CopyFrom(IDictionary<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.CopyFrom(System.Collections.Generic.IDictionary<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).CopyFrom(IDictionary(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).CopyFrom(System.Collections.Generic.IDictionary(Of TKey, TValue))
+  name.vb: CopyFrom(IDictionary(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+    name: CopyFrom
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+    name: CopyFrom
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyFrom(System.Collections.Generic.IDictionary{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.OnAfterDeserialize()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.OnAfterDeserialize()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).OnAfterDeserialize()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).OnAfterDeserialize()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnAfterDeserialize
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.OnBeforeSerialize()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.OnBeforeSerialize()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).OnBeforeSerialize()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).OnBeforeSerialize()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnBeforeSerialize
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Keys
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.Keys
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Keys
+  name: Keys
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Keys
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Keys
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Keys
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Keys
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Values
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.Values
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Values
+  name: Values
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Values
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Values
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Values
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Values
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Count
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.Count
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Count
+  name: Count
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Count
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Count
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Count
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Count
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.IsReadOnly
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.IsReadOnly
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.IsReadOnly
+  name: IsReadOnly
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.IsReadOnly
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.IsReadOnly
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).IsReadOnly
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).IsReadOnly
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Item(`0)
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.Item(`0)
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Item(`0)
+  name: this[TKey]
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.this[TKey]
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.this[TKey]
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).this[](TKey)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Item(`0)
+    name: this[]
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Item(`0)
+  - name: (
+  - name: TKey
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+  name: Add(TKey, TValue)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Add(TKey, TValue)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Add(TKey, TValue)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Add(TKey, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Add(TKey, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(`0,`1)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+  name: ContainsKey(TKey)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.ContainsKey(TKey)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.ContainsKey(TKey)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).ContainsKey(TKey)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).ContainsKey(TKey)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+    name: ContainsKey
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+    name: ContainsKey
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.ContainsKey(`0)
+  - name: (
+  - name: TKey
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+  name: Remove(TKey)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Remove(TKey)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Remove(TKey)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Remove(TKey)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Remove(TKey)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(`0)
+  - name: (
+  - name: TKey
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.TryGetValue(TKey, out TValue)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).TryGetValue(TKey, TValue)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+    name: TryGetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+    name: TryGetValue
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.TryGetValue(`0,`1@)
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Add(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Add(KeyValuePair<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Add(KeyValuePair(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Add(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+  name: Clear()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Clear()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Clear()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Clear()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Clear()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+    name: Clear
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+    name: Clear
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Clear
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Contains(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Contains(KeyValuePair<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Contains(KeyValuePair(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Contains(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name: CopyTo(KeyValuePair<TKey, TValue>[], int)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.CopyTo(KeyValuePair<TKey, TValue>[], int)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], int)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), Integer)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Integer)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Remove(KeyValuePair<TKey, TValue>)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Remove(KeyValuePair<TKey, TValue>)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Remove(KeyValuePair(Of TKey, TValue))
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Remove(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  - name: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.GetEnumerator()
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.GetEnumerator()
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).GetEnumerator()
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).GetEnumerator()
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+    name: GetEnumerator
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+    name: GetEnumerator
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetEnumerator
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.IsFixedSize
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.IsFixedSize
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.IsFixedSize
+  name: IsFixedSize
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.IsFixedSize
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.IsFixedSize
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).IsFixedSize
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).IsFixedSize
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.IsSynchronized
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.IsSynchronized
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.IsSynchronized
+  name: IsSynchronized
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.IsSynchronized
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.IsSynchronized
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).IsSynchronized
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).IsSynchronized
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.SyncRoot
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.SyncRoot
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.SyncRoot
+  name: SyncRoot
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.SyncRoot
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.SyncRoot
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).SyncRoot
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).SyncRoot
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Item(System.Object)
+  commentId: P:AstarLibrary.Core.SerializableDictionaryBase`3.Item(System.Object)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.this[object]
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.this[object]
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).this[](Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).this[](Object)
+  name.vb: this[](Object)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ']'
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Item(System.Object)
+    name: this[]
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Item(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+  name: Add(object, object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Add(object, object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Add(object, object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Add(Object, Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Add(Object, Object)
+  name.vb: Add(Object, Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+    name: Add
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Add(System.Object,System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+  name: Contains(object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Contains(object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Contains(object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Contains(Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Contains(Object)
+  name.vb: Contains(Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+    name: Contains
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Contains(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+  name: Remove(object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.Remove(object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.Remove(object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Remove(Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).Remove(Object)
+  name.vb: Remove(Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+    name: Remove
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.Remove(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+  name: CopyTo(Array, int)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.CopyTo(Array, int)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.CopyTo(System.Array, int)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).CopyTo(Array, Integer)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).CopyTo(System.Array, Integer)
+  name.vb: CopyTo(Array, Integer)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+  - name: (
+  - uid: System.Array
+    name: Array
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.CopyTo(System.Array,System.Int32)
+  - name: (
+  - uid: System.Array
+    name: Array
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.array
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+  name: OnDeserialization(object)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.OnDeserialization(object)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.OnDeserialization(object)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).OnDeserialization(Object)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).OnDeserialization(Object)
+  name.vb: OnDeserialization(Object)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+    name: OnDeserialization
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+    name: OnDeserialization
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.OnDeserialization(System.Object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  isExternal: true
+  href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: SerializableDictionaryBase<TKey, TValue, TValueStorage>.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: AstarLibrary.Core.SerializableDictionaryBase<TKey, TValue, TValueStorage>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType.vb: SerializableDictionaryBase(Of TKey, TValue, TValueStorage).GetObjectData(SerializationInfo, StreamingContext)
+  fullName.vb: AstarLibrary.Core.SerializableDictionaryBase(Of TKey, TValue, TValueStorage).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    href: AstarLibrary.Core.SerializableDictionaryBase-3.html#AstarLibrary.Core.SerializableDictionaryBase`3.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: AstarLibrary.Core.SerializableDictionary`2.#ctor*
+  commentId: Overload:AstarLibrary.Core.SerializableDictionary`2.#ctor
+  href: AstarLibrary.Core.SerializableDictionary-2.html#AstarLibrary.Core.SerializableDictionary`2.#ctor
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableDictionary
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.SerializableDictionary
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).New
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).New
+  name.vb: New
+- uid: System.Runtime.Serialization.SerializationInfo
+  commentId: T:System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  commentId: T:System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: AstarLibrary.Core.SerializableDictionary`2.GetValue*
+  commentId: Overload:AstarLibrary.Core.SerializableDictionary`2.GetValue
+  href: AstarLibrary.Core.SerializableDictionary-2.html#AstarLibrary.Core.SerializableDictionary`2.GetValue(`1[],System.Int32)
+  name: GetValue
+  nameWithType: SerializableDictionary<TKey, TValue>.GetValue
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.GetValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).GetValue
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).GetValue
+- uid: '{TValue}[]'
+  isExternal: true
+  name: TValue[]
+  nameWithType: TValue[]
+  fullName: TValue[]
+  nameWithType.vb: TValue()
+  fullName.vb: TValue()
+  name.vb: TValue()
+  spec.csharp:
+  - name: TValue
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: TValue
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: AstarLibrary.Core.SerializableDictionary`2.SetValue*
+  commentId: Overload:AstarLibrary.Core.SerializableDictionary`2.SetValue
+  href: AstarLibrary.Core.SerializableDictionary-2.html#AstarLibrary.Core.SerializableDictionary`2.SetValue(`1[],System.Int32,`1)
+  name: SetValue
+  nameWithType: SerializableDictionary<TKey, TValue>.SetValue
+  fullName: AstarLibrary.Core.SerializableDictionary<TKey, TValue>.SetValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SetValue
+  fullName.vb: AstarLibrary.Core.SerializableDictionary(Of TKey, TValue).SetValue

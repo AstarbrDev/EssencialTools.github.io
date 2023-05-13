@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.ReportSource
+  commentId: T:AstarLibrary.Core.ReportSource
+  id: ReportSource
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.ReportSource.API
+  - AstarLibrary.Core.ReportSource.Account
+  - AstarLibrary.Core.ReportSource.Android
+  - AstarLibrary.Core.ReportSource.Apple
+  - AstarLibrary.Core.ReportSource.Component
+  - AstarLibrary.Core.ReportSource.Console
+  - AstarLibrary.Core.ReportSource.Facebook
+  - AstarLibrary.Core.ReportSource.Firebase
+  - AstarLibrary.Core.ReportSource.Google
+  - AstarLibrary.Core.ReportSource.IOS
+  - AstarLibrary.Core.ReportSource.Linux
+  - AstarLibrary.Core.ReportSource.Mobile
+  - AstarLibrary.Core.ReportSource.Network
+  - AstarLibrary.Core.ReportSource.PC
+  - AstarLibrary.Core.ReportSource.Playstation
+  - AstarLibrary.Core.ReportSource.Server
+  - AstarLibrary.Core.ReportSource.System
+  - AstarLibrary.Core.ReportSource.Unity
+  - AstarLibrary.Core.ReportSource.User
+  - AstarLibrary.Core.ReportSource.VR
+  - AstarLibrary.Core.ReportSource.Web
+  - AstarLibrary.Core.ReportSource.Windows
+  - AstarLibrary.Core.ReportSource.Xbox
+  langs:
+  - csharp
+  - vb
+  name: ReportSource
+  nameWithType: ReportSource
+  fullName: AstarLibrary.Core.ReportSource
+  type: Enum
+  source:
+    id: ReportSource
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 8
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum ReportSource
+    content.vb: >-
+      <Serializable>
+
+      Public Enum ReportSource
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: AstarLibrary.Core.ReportSource.Unity
+  commentId: F:AstarLibrary.Core.ReportSource.Unity
+  id: Unity
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Unity
+  nameWithType: ReportSource.Unity
+  fullName: AstarLibrary.Core.ReportSource.Unity
+  type: Field
+  source:
+    id: Unity
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 11
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Unity = 0
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.System
+  commentId: F:AstarLibrary.Core.ReportSource.System
+  id: System
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: ReportSource.System
+  fullName: AstarLibrary.Core.ReportSource.System
+  type: Field
+  source:
+    id: System
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 12
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: System = 1
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Server
+  commentId: F:AstarLibrary.Core.ReportSource.Server
+  id: Server
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: ReportSource.Server
+  fullName: AstarLibrary.Core.ReportSource.Server
+  type: Field
+  source:
+    id: Server
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 13
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Server = 2
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Web
+  commentId: F:AstarLibrary.Core.ReportSource.Web
+  id: Web
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: ReportSource.Web
+  fullName: AstarLibrary.Core.ReportSource.Web
+  type: Field
+  source:
+    id: Web
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 14
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Web = 3
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.API
+  commentId: F:AstarLibrary.Core.ReportSource.API
+  id: API
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: API
+  nameWithType: ReportSource.API
+  fullName: AstarLibrary.Core.ReportSource.API
+  type: Field
+  source:
+    id: API
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 15
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: API = 4
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.User
+  commentId: F:AstarLibrary.Core.ReportSource.User
+  id: User
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: ReportSource.User
+  fullName: AstarLibrary.Core.ReportSource.User
+  type: Field
+  source:
+    id: User
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 16
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: User = 5
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Account
+  commentId: F:AstarLibrary.Core.ReportSource.Account
+  id: Account
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: ReportSource.Account
+  fullName: AstarLibrary.Core.ReportSource.Account
+  type: Field
+  source:
+    id: Account
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 17
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Account = 6
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Component
+  commentId: F:AstarLibrary.Core.ReportSource.Component
+  id: Component
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Component
+  nameWithType: ReportSource.Component
+  fullName: AstarLibrary.Core.ReportSource.Component
+  type: Field
+  source:
+    id: Component
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 18
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Component = 7
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Network
+  commentId: F:AstarLibrary.Core.ReportSource.Network
+  id: Network
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Network
+  nameWithType: ReportSource.Network
+  fullName: AstarLibrary.Core.ReportSource.Network
+  type: Field
+  source:
+    id: Network
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 19
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Network = 8
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Mobile
+  commentId: F:AstarLibrary.Core.ReportSource.Mobile
+  id: Mobile
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Mobile
+  nameWithType: ReportSource.Mobile
+  fullName: AstarLibrary.Core.ReportSource.Mobile
+  type: Field
+  source:
+    id: Mobile
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 20
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Mobile = 9
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.PC
+  commentId: F:AstarLibrary.Core.ReportSource.PC
+  id: PC
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: PC
+  nameWithType: ReportSource.PC
+  fullName: AstarLibrary.Core.ReportSource.PC
+  type: Field
+  source:
+    id: PC
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 21
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: PC = 10
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Console
+  commentId: F:AstarLibrary.Core.ReportSource.Console
+  id: Console
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Console
+  nameWithType: ReportSource.Console
+  fullName: AstarLibrary.Core.ReportSource.Console
+  type: Field
+  source:
+    id: Console
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 22
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Console = 11
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.VR
+  commentId: F:AstarLibrary.Core.ReportSource.VR
+  id: VR
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: VR
+  nameWithType: ReportSource.VR
+  fullName: AstarLibrary.Core.ReportSource.VR
+  type: Field
+  source:
+    id: VR
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 23
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: VR = 12
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Android
+  commentId: F:AstarLibrary.Core.ReportSource.Android
+  id: Android
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Android
+  nameWithType: ReportSource.Android
+  fullName: AstarLibrary.Core.ReportSource.Android
+  type: Field
+  source:
+    id: Android
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 24
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Android = 13
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.IOS
+  commentId: F:AstarLibrary.Core.ReportSource.IOS
+  id: IOS
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: IOS
+  nameWithType: ReportSource.IOS
+  fullName: AstarLibrary.Core.ReportSource.IOS
+  type: Field
+  source:
+    id: IOS
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 25
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: IOS = 14
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Windows
+  commentId: F:AstarLibrary.Core.ReportSource.Windows
+  id: Windows
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: ReportSource.Windows
+  fullName: AstarLibrary.Core.ReportSource.Windows
+  type: Field
+  source:
+    id: Windows
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 26
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Windows = 15
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Linux
+  commentId: F:AstarLibrary.Core.ReportSource.Linux
+  id: Linux
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Linux
+  nameWithType: ReportSource.Linux
+  fullName: AstarLibrary.Core.ReportSource.Linux
+  type: Field
+  source:
+    id: Linux
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 27
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Linux = 16
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Playstation
+  commentId: F:AstarLibrary.Core.ReportSource.Playstation
+  id: Playstation
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Playstation
+  nameWithType: ReportSource.Playstation
+  fullName: AstarLibrary.Core.ReportSource.Playstation
+  type: Field
+  source:
+    id: Playstation
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 28
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Playstation = 17
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Xbox
+  commentId: F:AstarLibrary.Core.ReportSource.Xbox
+  id: Xbox
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Xbox
+  nameWithType: ReportSource.Xbox
+  fullName: AstarLibrary.Core.ReportSource.Xbox
+  type: Field
+  source:
+    id: Xbox
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 29
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Xbox = 18
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Firebase
+  commentId: F:AstarLibrary.Core.ReportSource.Firebase
+  id: Firebase
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Firebase
+  nameWithType: ReportSource.Firebase
+  fullName: AstarLibrary.Core.ReportSource.Firebase
+  type: Field
+  source:
+    id: Firebase
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 30
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Firebase = 19
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Google
+  commentId: F:AstarLibrary.Core.ReportSource.Google
+  id: Google
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: ReportSource.Google
+  fullName: AstarLibrary.Core.ReportSource.Google
+  type: Field
+  source:
+    id: Google
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 31
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Google = 20
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Apple
+  commentId: F:AstarLibrary.Core.ReportSource.Apple
+  id: Apple
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Apple
+  nameWithType: ReportSource.Apple
+  fullName: AstarLibrary.Core.ReportSource.Apple
+  type: Field
+  source:
+    id: Apple
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 32
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Apple = 21
+    return:
+      type: AstarLibrary.Core.ReportSource
+- uid: AstarLibrary.Core.ReportSource.Facebook
+  commentId: F:AstarLibrary.Core.ReportSource.Facebook
+  id: Facebook
+  parent: AstarLibrary.Core.ReportSource
+  langs:
+  - csharp
+  - vb
+  name: Facebook
+  nameWithType: ReportSource.Facebook
+  fullName: AstarLibrary.Core.ReportSource.Facebook
+  type: Field
+  source:
+    id: Facebook
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Enums\ReportSource.cs
+    startLine: 33
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Facebook = 22
+    return:
+      type: AstarLibrary.Core.ReportSource
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: AstarLibrary.Core.ReportSource
+  commentId: T:AstarLibrary.Core.ReportSource
+  parent: AstarLibrary.Core
+  href: AstarLibrary.Core.ReportSource.html
+  name: ReportSource
+  nameWithType: ReportSource
+  fullName: AstarLibrary.Core.ReportSource

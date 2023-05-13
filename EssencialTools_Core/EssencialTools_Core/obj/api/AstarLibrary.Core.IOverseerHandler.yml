@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.IOverseerHandler
+  commentId: T:AstarLibrary.Core.IOverseerHandler
+  id: IOverseerHandler
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.IOverseerHandler.Notify(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IOverseerHandler
+  nameWithType: IOverseerHandler
+  fullName: AstarLibrary.Core.IOverseerHandler
+  type: Interface
+  source:
+    id: IOverseerHandler
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Interfaces\IOverseerHandler.cs
+    startLine: 7
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public interface IOverseerHandler
+    content.vb: Public Interface IOverseerHandler
+- uid: AstarLibrary.Core.IOverseerHandler.Notify(System.Object)
+  commentId: M:AstarLibrary.Core.IOverseerHandler.Notify(System.Object)
+  id: Notify(System.Object)
+  parent: AstarLibrary.Core.IOverseerHandler
+  langs:
+  - csharp
+  - vb
+  name: Notify(object)
+  nameWithType: IOverseerHandler.Notify(object)
+  fullName: AstarLibrary.Core.IOverseerHandler.Notify(object)
+  type: Method
+  source:
+    id: Notify
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Interfaces\IOverseerHandler.cs
+    startLine: 9
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: void Notify(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Sub Notify(message As Object)
+  overload: AstarLibrary.Core.IOverseerHandler.Notify*
+  nameWithType.vb: IOverseerHandler.Notify(Object)
+  fullName.vb: AstarLibrary.Core.IOverseerHandler.Notify(Object)
+  name.vb: Notify(Object)
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: AstarLibrary.Core.IOverseerHandler.Notify*
+  commentId: Overload:AstarLibrary.Core.IOverseerHandler.Notify
+  href: AstarLibrary.Core.IOverseerHandler.html#AstarLibrary.Core.IOverseerHandler.Notify(System.Object)
+  name: Notify
+  nameWithType: IOverseerHandler.Notify
+  fullName: AstarLibrary.Core.IOverseerHandler.Notify
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

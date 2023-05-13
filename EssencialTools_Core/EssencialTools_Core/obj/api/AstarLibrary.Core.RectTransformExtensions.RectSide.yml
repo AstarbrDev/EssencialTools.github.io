@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+  commentId: T:AstarLibrary.Core.RectTransformExtensions.RectSide
+  id: RectTransformExtensions.RectSide
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.RectTransformExtensions.RectSide.Bottom
+  - AstarLibrary.Core.RectTransformExtensions.RectSide.Left
+  - AstarLibrary.Core.RectTransformExtensions.RectSide.Right
+  - AstarLibrary.Core.RectTransformExtensions.RectSide.Top
+  langs:
+  - csharp
+  - vb
+  name: RectTransformExtensions.RectSide
+  nameWithType: RectTransformExtensions.RectSide
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide
+  type: Enum
+  source:
+    id: RectSide
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 170
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public enum RectTransformExtensions.RectSide
+    content.vb: Public Enum RectTransformExtensions.RectSide
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide.Left
+  commentId: F:AstarLibrary.Core.RectTransformExtensions.RectSide.Left
+  id: Left
+  parent: AstarLibrary.Core.RectTransformExtensions.RectSide
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: RectTransformExtensions.RectSide.Left
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide.Left
+  type: Field
+  source:
+    id: Left
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 172
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Left = 0
+    return:
+      type: AstarLibrary.Core.RectTransformExtensions.RectSide
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide.Right
+  commentId: F:AstarLibrary.Core.RectTransformExtensions.RectSide.Right
+  id: Right
+  parent: AstarLibrary.Core.RectTransformExtensions.RectSide
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: RectTransformExtensions.RectSide.Right
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide.Right
+  type: Field
+  source:
+    id: Right
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 173
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Right = 1
+    return:
+      type: AstarLibrary.Core.RectTransformExtensions.RectSide
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide.Top
+  commentId: F:AstarLibrary.Core.RectTransformExtensions.RectSide.Top
+  id: Top
+  parent: AstarLibrary.Core.RectTransformExtensions.RectSide
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: RectTransformExtensions.RectSide.Top
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide.Top
+  type: Field
+  source:
+    id: Top
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 174
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Top = 2
+    return:
+      type: AstarLibrary.Core.RectTransformExtensions.RectSide
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide.Bottom
+  commentId: F:AstarLibrary.Core.RectTransformExtensions.RectSide.Bottom
+  id: Bottom
+  parent: AstarLibrary.Core.RectTransformExtensions.RectSide
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: RectTransformExtensions.RectSide.Bottom
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide.Bottom
+  type: Field
+  source:
+    id: Bottom
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 175
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: Bottom = 3
+    return:
+      type: AstarLibrary.Core.RectTransformExtensions.RectSide
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+  commentId: T:AstarLibrary.Core.RectTransformExtensions.RectSide
+  parent: AstarLibrary.Core
+  href: AstarLibrary.Core.RectTransformExtensions.html
+  name: RectTransformExtensions.RectSide
+  nameWithType: RectTransformExtensions.RectSide
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide
+  spec.csharp:
+  - uid: AstarLibrary.Core.RectTransformExtensions
+    name: RectTransformExtensions
+    href: AstarLibrary.Core.RectTransformExtensions.html
+  - name: .
+  - uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+    name: RectSide
+    href: AstarLibrary.Core.RectTransformExtensions.RectSide.html
+  spec.vb:
+  - uid: AstarLibrary.Core.RectTransformExtensions
+    name: RectTransformExtensions
+    href: AstarLibrary.Core.RectTransformExtensions.html
+  - name: .
+  - uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+    name: RectSide
+    href: AstarLibrary.Core.RectTransformExtensions.RectSide.html

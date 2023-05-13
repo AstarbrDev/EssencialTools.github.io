@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{026E8FC3-8865-4B2A-887B-02F7123C1248}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EssencialTools_Core</RootNamespace>
+    <AssemblyName>EssencialTools_Core</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\EssencialTools_Core.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+  <DocumentationFile>bin\Debug\EssencialTools_Core.xml</DocumentationFile>
+</PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\Unity projects\Personal\Bibble Verses\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2022.2.9f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2022.2.9f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\Unity projects\Personal\Bibble Verses\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\ConditionalFieldAttribute.cs" />
+    <Compile Include="Attributes\EnumToToolbarAttribute.cs" />
+    <Compile Include="Attributes\HideScriptFieldAttribute.cs" />
+    <Compile Include="Attributes\LabeledArrayAttribute.cs" />
+    <Compile Include="Attributes\LabeledAttribute.cs" />
+    <Compile Include="Attributes\OnValueChangedAttribute.cs" />
+    <Compile Include="Attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Attributes\SearchObjectAttribute.cs" />
+    <Compile Include="Attributes\SplitAttribute.cs" />
+    <Compile Include="Base\Cog.cs" />
+    <Compile Include="Base\Controller.cs" />
+    <Compile Include="Base\Element.cs" />
+    <Compile Include="Base\Frame.cs" />
+    <Compile Include="Base\Hull.cs" />
+    <Compile Include="Base\Manager.cs" />
+    <Compile Include="Base\Module.cs" />
+    <Compile Include="Base\Warden.cs" />
+    <Compile Include="Base\Worker.cs" />
+    <Compile Include="Enums\ReportSource.cs" />
+    <Compile Include="Enums\ReportType.cs" />
+    <Compile Include="Enums\StartType.cs" />
+    <Compile Include="Extends\ColorExtensions.cs" />
+    <Compile Include="Extends\CoroutineExtensions.cs" />
+    <Compile Include="Extends\GameObjectExtensions.cs" />
+    <Compile Include="Extends\InterfaceExtensions.cs" />
+    <Compile Include="Extends\IntExtensions.cs" />
+    <Compile Include="Extends\RectTransformExtensions.cs" />
+    <Compile Include="Extends\SerializableDictionary.cs" />
+    <Compile Include="Extends\StringsExtensions.cs" />
+    <Compile Include="Interfaces\ICacheHandler.cs" />
+    <Compile Include="Interfaces\IOverseerHandler.cs" />
+    <Compile Include="Interfaces\IRecordHandler.cs" />
+    <Compile Include="Interfaces\IWorkerHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitary\Cipher.cs" />
+    <Compile Include="Utilitary\Load.cs" />
+    <Compile Include="Utilitary\Memo.cs" />
+    <Compile Include="Utilitary\PlayerPref.cs" />
+    <Compile Include="Utilitary\Report.cs" />
+    <Compile Include="Utilitary\Stamp.cs" />
+    <Compile Include="Utilitary\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="api\index.md" />
+    <None Include="articles\intro.md" />
+    <None Include="articles\toc.md" />
+    <None Include="docfx.json" />
+    <None Include="index.md" />
+    <None Include="packages.config" />
+    <None Include="toc.yml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\docfx.console.2.59.4\build\docfx.console.targets" Condition="Exists('..\packages\docfx.console.2.59.4\build\docfx.console.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\docfx.console.2.59.4\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.59.4\build\docfx.console.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,182 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="AstarLibrary.Core.html" name="" title="AstarLibrary.Core">AstarLibrary.Core</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AstarLibrary.Core.Cipher.html" name="" title="Cipher">Cipher</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Cog-1.html" name="" title="Cog&lt;T&gt;">Cog&lt;T&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.ColorExtensions.html" name="" title="ColorExtensions">ColorExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.ConditionalFieldAttribute.html" name="" title="ConditionalFieldAttribute">ConditionalFieldAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Controller-1.html" name="" title="Controller&lt;T&gt;">Controller&lt;T&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.CoroutineExtensions.html" name="" title="CoroutineExtensions">CoroutineExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Element.html" name="" title="Element">Element</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.EnumToToolbarAttribute.html" name="" title="EnumToToolbarAttribute">EnumToToolbarAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Frame.html" name="" title="Frame">Frame</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.GameObjectExtensions.html" name="" title="GameObjectExtensions">GameObjectExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.HideScriptFieldAttribute.html" name="" title="HideScriptFieldAttribute">HideScriptFieldAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Hull.html" name="" title="Hull">Hull</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.ICacheHandler.html" name="" title="ICacheHandler">ICacheHandler</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.InterfaceExtensions.html" name="" title="InterfaceExtensions">InterfaceExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.IntExtensions.html" name="" title="IntExtensions">IntExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.IOverseerHandler.html" name="" title="IOverseerHandler">IOverseerHandler</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.IRecordHandler.html" name="" title="IRecordHandler">IRecordHandler</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.IWorkerHandler.html" name="" title="IWorkerHandler">IWorkerHandler</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.LabeledArrayAttribute.html" name="" title="LabeledArrayAttribute">LabeledArrayAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.LabeledAttribute.html" name="" title="LabeledAttribute">LabeledAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Load.html" name="" title="Load">Load</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Load.LoadHandler.html" name="" title="Load.LoadHandler">Load.LoadHandler</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Manager.html" name="" title="Manager">Manager</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Manager-1.html" name="" title="Manager&lt;T&gt;">Manager&lt;T&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Memo.html" name="" title="Memo">Memo</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Module.html" name="" title="Module">Module</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.OnValueChangedAttribute.html" name="" title="OnValueChangedAttribute">OnValueChangedAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.PlayerPref.html" name="" title="PlayerPref">PlayerPref</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.ReadOnlyAttribute.html" name="" title="ReadOnlyAttribute">ReadOnlyAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.RectTransformExtensions.html" name="" title="RectTransformExtensions">RectTransformExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.RectTransformExtensions.AnchorType.html" name="" title="RectTransformExtensions.AnchorType">RectTransformExtensions.AnchorType</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.RectTransformExtensions.RectSide.html" name="" title="RectTransformExtensions.RectSide">RectTransformExtensions.RectSide</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Report.html" name="" title="Report">Report</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.ReportSource.html" name="" title="ReportSource">ReportSource</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.ReportType.html" name="" title="ReportType">ReportType</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SearchObjectAttribute.html" name="" title="SearchObjectAttribute">SearchObjectAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionary.html" name="" title="SerializableDictionary">SerializableDictionary</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionary.Storage-1.html" name="" title="SerializableDictionary.Storage&lt;T&gt;">SerializableDictionary.Storage&lt;T&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionary-3.html" name="" title="SerializableDictionary&lt;TKey, TValue, TValueStorage&gt;">SerializableDictionary&lt;TKey, TValue, TValueStorage&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionary-2.html" name="" title="SerializableDictionary&lt;TKey, TValue&gt;">SerializableDictionary&lt;TKey, TValue&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionaryBase.html" name="" title="SerializableDictionaryBase">SerializableDictionaryBase</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionaryBase.Dictionary-2.html" name="" title="SerializableDictionaryBase.Dictionary&lt;TKey, TValue&gt;">SerializableDictionaryBase.Dictionary&lt;TKey, TValue&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionaryBase.Storage.html" name="" title="SerializableDictionaryBase.Storage">SerializableDictionaryBase.Storage</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SerializableDictionaryBase-3.html" name="" title="SerializableDictionaryBase&lt;TKey, TValue, TValueStorage&gt;">SerializableDictionaryBase&lt;TKey, TValue, TValueStorage&gt;</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.SplitAttribute.html" name="" title="SplitAttribute">SplitAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Stamp.html" name="" title="Stamp">Stamp</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.StartType.html" name="" title="StartType">StartType</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.StringsExtensions.html" name="" title="StringsExtensions">StringsExtensions</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Utility.html" name="" title="Utility">Utility</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Utility.Cast.html" name="" title="Utility.Cast">Utility.Cast</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Warden.html" name="" title="Warden">Warden</a>
+                          </li>
+                          <li>
+                              <a href="AstarLibrary.Core.Worker-1.html" name="" title="Worker&lt;T&gt;">Worker&lt;T&gt;</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

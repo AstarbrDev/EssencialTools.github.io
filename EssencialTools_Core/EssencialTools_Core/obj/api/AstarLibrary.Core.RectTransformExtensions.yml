@@ -1,0 +1,1104 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.RectTransformExtensions
+  commentId: T:AstarLibrary.Core.RectTransformExtensions
+  id: RectTransformExtensions
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.RectTransformExtensions.AnchorToCorners(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched(UnityEngine.RectTransform,AstarLibrary.Core.RectTransformExtensions.RectSide,System.Single)
+  - AstarLibrary.Core.RectTransformExtensions.FindComponentInParents``1(UnityEngine.Transform)
+  - AstarLibrary.Core.RectTransformExtensions.GetAnchorType(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetBottom(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetHeight(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetLeft(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetRight(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetSize(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetTop(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.GetWidth(UnityEngine.RectTransform)
+  - AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - AstarLibrary.Core.RectTransformExtensions.SetHeight(UnityEngine.RectTransform,System.Single)
+  - AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - AstarLibrary.Core.RectTransformExtensions.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  - AstarLibrary.Core.RectTransformExtensions.SetWidth(UnityEngine.RectTransform,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: RectTransformExtensions
+  nameWithType: RectTransformExtensions
+  fullName: AstarLibrary.Core.RectTransformExtensions
+  type: Class
+  source:
+    id: RectTransformExtensions
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 9
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static class RectTransformExtensions
+    content.vb: Public Module RectTransformExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: AstarLibrary.Core.RectTransformExtensions.GetAnchorType(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetAnchorType(UnityEngine.RectTransform)
+  id: GetAnchorType(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetAnchorType(RectTransform)
+  nameWithType: RectTransformExtensions.GetAnchorType(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetAnchorType(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetAnchorType
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 12
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static RectTransformExtensions.AnchorType GetAnchorType(this RectTransform rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.RectTransform
+    return:
+      type: AstarLibrary.Core.RectTransformExtensions.AnchorType
+    content.vb: Public Shared Function GetAnchorType(rect As RectTransform) As RectTransformExtensions.AnchorType
+  overload: AstarLibrary.Core.RectTransformExtensions.GetAnchorType*
+- uid: AstarLibrary.Core.RectTransformExtensions.AnchorToCorners(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.AnchorToCorners(UnityEngine.RectTransform)
+  id: AnchorToCorners(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: AnchorToCorners(RectTransform)
+  nameWithType: RectTransformExtensions.AnchorToCorners(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.AnchorToCorners(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: AnchorToCorners
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 31
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void AnchorToCorners(this RectTransform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.RectTransform
+    content.vb: Public Shared Sub AnchorToCorners(transform As RectTransform)
+  overload: AstarLibrary.Core.RectTransformExtensions.AnchorToCorners*
+- uid: AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetPivotAndAnchors(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPivotAndAnchors(RectTransform, Vector2)
+  nameWithType: RectTransformExtensions.SetPivotAndAnchors(RectTransform, Vector2)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    id: SetPivotAndAnchors
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 51
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetPivotAndAnchors(this RectTransform trans, Vector2 aVec)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: aVec
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub SetPivotAndAnchors(trans As RectTransform, aVec As Vector2)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetSize(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetSize(UnityEngine.RectTransform)
+  id: GetSize(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSize(RectTransform)
+  nameWithType: RectTransformExtensions.GetSize(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetSize(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetSize
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 57
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static Vector2 GetSize(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function GetSize(trans As RectTransform) As Vector2
+  overload: AstarLibrary.Core.RectTransformExtensions.GetSize*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetWidth(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetWidth(UnityEngine.RectTransform)
+  id: GetWidth(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetWidth(RectTransform)
+  nameWithType: RectTransformExtensions.GetWidth(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetWidth(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetWidth
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 61
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float GetWidth(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetWidth(trans As RectTransform) As Single
+  overload: AstarLibrary.Core.RectTransformExtensions.GetWidth*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetHeight(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetHeight(UnityEngine.RectTransform)
+  id: GetHeight(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetHeight(RectTransform)
+  nameWithType: RectTransformExtensions.GetHeight(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetHeight(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetHeight
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 65
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float GetHeight(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetHeight(trans As RectTransform) As Single
+  overload: AstarLibrary.Core.RectTransformExtensions.GetHeight*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetLeft(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetLeft(UnityEngine.RectTransform)
+  id: GetLeft(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLeft(RectTransform)
+  nameWithType: RectTransformExtensions.GetLeft(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetLeft(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetLeft
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 69
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float GetLeft(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetLeft(trans As RectTransform) As Single
+  overload: AstarLibrary.Core.RectTransformExtensions.GetLeft*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetRight(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetRight(UnityEngine.RectTransform)
+  id: GetRight(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetRight(RectTransform)
+  nameWithType: RectTransformExtensions.GetRight(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetRight(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetRight
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 73
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float GetRight(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetRight(trans As RectTransform) As Single
+  overload: AstarLibrary.Core.RectTransformExtensions.GetRight*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetTop(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetTop(UnityEngine.RectTransform)
+  id: GetTop(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetTop(RectTransform)
+  nameWithType: RectTransformExtensions.GetTop(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetTop(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetTop
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 77
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float GetTop(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetTop(trans As RectTransform) As Single
+  overload: AstarLibrary.Core.RectTransformExtensions.GetTop*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetBottom(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetBottom(UnityEngine.RectTransform)
+  id: GetBottom(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetBottom(RectTransform)
+  nameWithType: RectTransformExtensions.GetBottom(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetBottom(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetBottom
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 81
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static float GetBottom(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetBottom(trans As RectTransform) As Single
+  overload: AstarLibrary.Core.RectTransformExtensions.GetBottom*
+- uid: AstarLibrary.Core.RectTransformExtensions.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSize(RectTransform, Vector2)
+  nameWithType: RectTransformExtensions.SetSize(RectTransform, Vector2)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetSize(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    id: SetSize
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 85
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetSize(this RectTransform trans, Vector2 newSize)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newSize
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub SetSize(trans As RectTransform, newSize As Vector2)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetSize*
+- uid: AstarLibrary.Core.RectTransformExtensions.SetWidth(UnityEngine.RectTransform,System.Single)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetWidth(UnityEngine.RectTransform,System.Single)
+  id: SetWidth(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetWidth(RectTransform, float)
+  nameWithType: RectTransformExtensions.SetWidth(RectTransform, float)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetWidth(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    id: SetWidth
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 92
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetWidth(this RectTransform trans, float newSize)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newSize
+      type: System.Single
+    content.vb: Public Shared Sub SetWidth(trans As RectTransform, newSize As Single)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetWidth*
+  nameWithType.vb: RectTransformExtensions.SetWidth(RectTransform, Single)
+  fullName.vb: AstarLibrary.Core.RectTransformExtensions.SetWidth(UnityEngine.RectTransform, Single)
+  name.vb: SetWidth(RectTransform, Single)
+- uid: AstarLibrary.Core.RectTransformExtensions.SetHeight(UnityEngine.RectTransform,System.Single)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetHeight(UnityEngine.RectTransform,System.Single)
+  id: SetHeight(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(RectTransform, float)
+  nameWithType: RectTransformExtensions.SetHeight(RectTransform, float)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetHeight(UnityEngine.RectTransform, float)
+  type: Method
+  source:
+    id: SetHeight
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 96
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetHeight(this RectTransform trans, float newSize)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newSize
+      type: System.Single
+    content.vb: Public Shared Sub SetHeight(trans As RectTransform, newSize As Single)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetHeight*
+  nameWithType.vb: RectTransformExtensions.SetHeight(RectTransform, Single)
+  fullName.vb: AstarLibrary.Core.RectTransformExtensions.SetHeight(UnityEngine.RectTransform, Single)
+  name.vb: SetHeight(RectTransform, Single)
+- uid: AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetBottomLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetBottomLeftPosition(RectTransform, Vector2)
+  nameWithType: RectTransformExtensions.SetBottomLeftPosition(RectTransform, Vector2)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    id: SetBottomLeftPosition
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 100
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetBottomLeftPosition(this RectTransform trans, Vector2 newPos)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newPos
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub SetBottomLeftPosition(trans As RectTransform, newPos As Vector2)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition*
+- uid: AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetTopLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetTopLeftPosition(RectTransform, Vector2)
+  nameWithType: RectTransformExtensions.SetTopLeftPosition(RectTransform, Vector2)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    id: SetTopLeftPosition
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 104
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetTopLeftPosition(this RectTransform trans, Vector2 newPos)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newPos
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub SetTopLeftPosition(trans As RectTransform, newPos As Vector2)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition*
+- uid: AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetBottomRightPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetBottomRightPosition(RectTransform, Vector2)
+  nameWithType: RectTransformExtensions.SetBottomRightPosition(RectTransform, Vector2)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    id: SetBottomRightPosition
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 108
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetBottomRightPosition(this RectTransform trans, Vector2 newPos)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newPos
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub SetBottomRightPosition(trans As RectTransform, newPos As Vector2)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition*
+- uid: AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  id: SetRightTopPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetRightTopPosition(RectTransform, Vector2)
+  nameWithType: RectTransformExtensions.SetRightTopPosition(RectTransform, Vector2)
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition(UnityEngine.RectTransform, UnityEngine.Vector2)
+  type: Method
+  source:
+    id: SetRightTopPosition
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 112
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static void SetRightTopPosition(this RectTransform trans, Vector2 newPos)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    - id: newPos
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub SetRightTopPosition(trans As RectTransform, newPos As Vector2)
+  overload: AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition*
+- uid: AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas(UnityEngine.RectTransform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas(UnityEngine.RectTransform)
+  id: GetTopRectTransformOfCanvas(UnityEngine.RectTransform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetTopRectTransformOfCanvas(RectTransform)
+  nameWithType: RectTransformExtensions.GetTopRectTransformOfCanvas(RectTransform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas(UnityEngine.RectTransform)
+  type: Method
+  source:
+    id: GetTopRectTransformOfCanvas
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 116
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static RectTransform GetTopRectTransformOfCanvas(this RectTransform trans)
+    parameters:
+    - id: trans
+      type: UnityEngine.RectTransform
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: Public Shared Function GetTopRectTransformOfCanvas(trans As RectTransform) As RectTransform
+  overload: AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas*
+- uid: AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched(UnityEngine.RectTransform,AstarLibrary.Core.RectTransformExtensions.RectSide,System.Single)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched(UnityEngine.RectTransform,AstarLibrary.Core.RectTransformExtensions.RectSide,System.Single)
+  id: ChangeRectStretched(UnityEngine.RectTransform,AstarLibrary.Core.RectTransformExtensions.RectSide,System.Single)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ChangeRectStretched(RectTransform, RectSide, float)
+  nameWithType: RectTransformExtensions.ChangeRectStretched(RectTransform, RectTransformExtensions.RectSide, float)
+  fullName: AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched(UnityEngine.RectTransform, AstarLibrary.Core.RectTransformExtensions.RectSide, float)
+  type: Method
+  source:
+    id: ChangeRectStretched
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 123
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static RectTransform ChangeRectStretched(this RectTransform obj, RectTransformExtensions.RectSide side, float number)
+    parameters:
+    - id: obj
+      type: UnityEngine.RectTransform
+    - id: side
+      type: AstarLibrary.Core.RectTransformExtensions.RectSide
+    - id: number
+      type: System.Single
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: Public Shared Function ChangeRectStretched(obj As RectTransform, side As RectTransformExtensions.RectSide, number As Single) As RectTransform
+  overload: AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched*
+  nameWithType.vb: RectTransformExtensions.ChangeRectStretched(RectTransform, RectTransformExtensions.RectSide, Single)
+  fullName.vb: AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched(UnityEngine.RectTransform, AstarLibrary.Core.RectTransformExtensions.RectSide, Single)
+  name.vb: ChangeRectStretched(RectTransform, RectSide, Single)
+- uid: AstarLibrary.Core.RectTransformExtensions.FindComponentInParents``1(UnityEngine.Transform)
+  commentId: M:AstarLibrary.Core.RectTransformExtensions.FindComponentInParents``1(UnityEngine.Transform)
+  id: FindComponentInParents``1(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FindComponentInParents<T>(Transform)
+  nameWithType: RectTransformExtensions.FindComponentInParents<T>(Transform)
+  fullName: AstarLibrary.Core.RectTransformExtensions.FindComponentInParents<T>(UnityEngine.Transform)
+  type: Method
+  source:
+    id: FindComponentInParents
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\RectTransformExtensions.cs
+    startLine: 146
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: 'public static T FindComponentInParents<T>(this Transform transform) where T : Component'
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FindComponentInParents(Of T As Component)(transform As Transform) As T
+  overload: AstarLibrary.Core.RectTransformExtensions.FindComponentInParents*
+  nameWithType.vb: RectTransformExtensions.FindComponentInParents(Of T)(Transform)
+  fullName.vb: AstarLibrary.Core.RectTransformExtensions.FindComponentInParents(Of T)(UnityEngine.Transform)
+  name.vb: FindComponentInParents(Of T)(Transform)
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AstarLibrary.Core.RectTransformExtensions.GetAnchorType*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetAnchorType
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetAnchorType(UnityEngine.RectTransform)
+  name: GetAnchorType
+  nameWithType: RectTransformExtensions.GetAnchorType
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetAnchorType
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: AstarLibrary.Core.RectTransformExtensions.AnchorType
+  commentId: T:AstarLibrary.Core.RectTransformExtensions.AnchorType
+  parent: AstarLibrary.Core
+  href: AstarLibrary.Core.RectTransformExtensions.html
+  name: RectTransformExtensions.AnchorType
+  nameWithType: RectTransformExtensions.AnchorType
+  fullName: AstarLibrary.Core.RectTransformExtensions.AnchorType
+  spec.csharp:
+  - uid: AstarLibrary.Core.RectTransformExtensions
+    name: RectTransformExtensions
+    href: AstarLibrary.Core.RectTransformExtensions.html
+  - name: .
+  - uid: AstarLibrary.Core.RectTransformExtensions.AnchorType
+    name: AnchorType
+    href: AstarLibrary.Core.RectTransformExtensions.AnchorType.html
+  spec.vb:
+  - uid: AstarLibrary.Core.RectTransformExtensions
+    name: RectTransformExtensions
+    href: AstarLibrary.Core.RectTransformExtensions.html
+  - name: .
+  - uid: AstarLibrary.Core.RectTransformExtensions.AnchorType
+    name: AnchorType
+    href: AstarLibrary.Core.RectTransformExtensions.AnchorType.html
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: AstarLibrary.Core.RectTransformExtensions.AnchorToCorners*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.AnchorToCorners
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.AnchorToCorners(UnityEngine.RectTransform)
+  name: AnchorToCorners
+  nameWithType: RectTransformExtensions.AnchorToCorners
+  fullName: AstarLibrary.Core.RectTransformExtensions.AnchorToCorners
+- uid: AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors(UnityEngine.RectTransform,UnityEngine.Vector2)
+  name: SetPivotAndAnchors
+  nameWithType: RectTransformExtensions.SetPivotAndAnchors
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetPivotAndAnchors
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: AstarLibrary.Core.RectTransformExtensions.GetSize*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetSize
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetSize(UnityEngine.RectTransform)
+  name: GetSize
+  nameWithType: RectTransformExtensions.GetSize
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetSize
+- uid: AstarLibrary.Core.RectTransformExtensions.GetWidth*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetWidth
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetWidth(UnityEngine.RectTransform)
+  name: GetWidth
+  nameWithType: RectTransformExtensions.GetWidth
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetWidth
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: AstarLibrary.Core.RectTransformExtensions.GetHeight*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetHeight
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetHeight(UnityEngine.RectTransform)
+  name: GetHeight
+  nameWithType: RectTransformExtensions.GetHeight
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetHeight
+- uid: AstarLibrary.Core.RectTransformExtensions.GetLeft*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetLeft
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetLeft(UnityEngine.RectTransform)
+  name: GetLeft
+  nameWithType: RectTransformExtensions.GetLeft
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetLeft
+- uid: AstarLibrary.Core.RectTransformExtensions.GetRight*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetRight
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetRight(UnityEngine.RectTransform)
+  name: GetRight
+  nameWithType: RectTransformExtensions.GetRight
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetRight
+- uid: AstarLibrary.Core.RectTransformExtensions.GetTop*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetTop
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetTop(UnityEngine.RectTransform)
+  name: GetTop
+  nameWithType: RectTransformExtensions.GetTop
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetTop
+- uid: AstarLibrary.Core.RectTransformExtensions.GetBottom*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetBottom
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetBottom(UnityEngine.RectTransform)
+  name: GetBottom
+  nameWithType: RectTransformExtensions.GetBottom
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetBottom
+- uid: AstarLibrary.Core.RectTransformExtensions.SetSize*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetSize
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetSize(UnityEngine.RectTransform,UnityEngine.Vector2)
+  name: SetSize
+  nameWithType: RectTransformExtensions.SetSize
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetSize
+- uid: AstarLibrary.Core.RectTransformExtensions.SetWidth*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetWidth
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetWidth(UnityEngine.RectTransform,System.Single)
+  name: SetWidth
+  nameWithType: RectTransformExtensions.SetWidth
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetWidth
+- uid: AstarLibrary.Core.RectTransformExtensions.SetHeight*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetHeight
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetHeight(UnityEngine.RectTransform,System.Single)
+  name: SetHeight
+  nameWithType: RectTransformExtensions.SetHeight
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetHeight
+- uid: AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  name: SetBottomLeftPosition
+  nameWithType: RectTransformExtensions.SetBottomLeftPosition
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetBottomLeftPosition
+- uid: AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  name: SetTopLeftPosition
+  nameWithType: RectTransformExtensions.SetTopLeftPosition
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetTopLeftPosition
+- uid: AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  name: SetBottomRightPosition
+  nameWithType: RectTransformExtensions.SetBottomRightPosition
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetBottomRightPosition
+- uid: AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition(UnityEngine.RectTransform,UnityEngine.Vector2)
+  name: SetRightTopPosition
+  nameWithType: RectTransformExtensions.SetRightTopPosition
+  fullName: AstarLibrary.Core.RectTransformExtensions.SetRightTopPosition
+- uid: AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas(UnityEngine.RectTransform)
+  name: GetTopRectTransformOfCanvas
+  nameWithType: RectTransformExtensions.GetTopRectTransformOfCanvas
+  fullName: AstarLibrary.Core.RectTransformExtensions.GetTopRectTransformOfCanvas
+- uid: AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched(UnityEngine.RectTransform,AstarLibrary.Core.RectTransformExtensions.RectSide,System.Single)
+  name: ChangeRectStretched
+  nameWithType: RectTransformExtensions.ChangeRectStretched
+  fullName: AstarLibrary.Core.RectTransformExtensions.ChangeRectStretched
+- uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+  commentId: T:AstarLibrary.Core.RectTransformExtensions.RectSide
+  parent: AstarLibrary.Core
+  href: AstarLibrary.Core.RectTransformExtensions.html
+  name: RectTransformExtensions.RectSide
+  nameWithType: RectTransformExtensions.RectSide
+  fullName: AstarLibrary.Core.RectTransformExtensions.RectSide
+  spec.csharp:
+  - uid: AstarLibrary.Core.RectTransformExtensions
+    name: RectTransformExtensions
+    href: AstarLibrary.Core.RectTransformExtensions.html
+  - name: .
+  - uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+    name: RectSide
+    href: AstarLibrary.Core.RectTransformExtensions.RectSide.html
+  spec.vb:
+  - uid: AstarLibrary.Core.RectTransformExtensions
+    name: RectTransformExtensions
+    href: AstarLibrary.Core.RectTransformExtensions.html
+  - name: .
+  - uid: AstarLibrary.Core.RectTransformExtensions.RectSide
+    name: RectSide
+    href: AstarLibrary.Core.RectTransformExtensions.RectSide.html
+- uid: AstarLibrary.Core.RectTransformExtensions.FindComponentInParents*
+  commentId: Overload:AstarLibrary.Core.RectTransformExtensions.FindComponentInParents
+  href: AstarLibrary.Core.RectTransformExtensions.html#AstarLibrary.Core.RectTransformExtensions.FindComponentInParents``1(UnityEngine.Transform)
+  name: FindComponentInParents
+  nameWithType: RectTransformExtensions.FindComponentInParents
+  fullName: AstarLibrary.Core.RectTransformExtensions.FindComponentInParents
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

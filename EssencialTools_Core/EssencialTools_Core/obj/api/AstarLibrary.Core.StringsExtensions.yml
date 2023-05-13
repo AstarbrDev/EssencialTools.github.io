@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: AstarLibrary.Core.StringsExtensions
+  commentId: T:AstarLibrary.Core.StringsExtensions
+  id: StringsExtensions
+  parent: AstarLibrary.Core
+  children:
+  - AstarLibrary.Core.StringsExtensions.AddCharacterToString(System.String,System.Char)
+  - AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(System.String,System.String)
+  - AstarLibrary.Core.StringsExtensions.ReplaceValues(System.String[],System.String[])
+  - AstarLibrary.Core.StringsExtensions.StringCut(System.String,System.Int32,System.Int32)
+  - AstarLibrary.Core.StringsExtensions.StringSplitter(System.String,System.Char[])
+  langs:
+  - csharp
+  - vb
+  name: StringsExtensions
+  nameWithType: StringsExtensions
+  fullName: AstarLibrary.Core.StringsExtensions
+  type: Class
+  source:
+    id: StringsExtensions
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\StringsExtensions.cs
+    startLine: 8
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  syntax:
+    content: public static class StringsExtensions
+    content.vb: Public Module StringsExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: AstarLibrary.Core.StringsExtensions.ReplaceValues(System.String[],System.String[])
+  commentId: M:AstarLibrary.Core.StringsExtensions.ReplaceValues(System.String[],System.String[])
+  id: ReplaceValues(System.String[],System.String[])
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.StringsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ReplaceValues(string[], string[])
+  nameWithType: StringsExtensions.ReplaceValues(string[], string[])
+  fullName: AstarLibrary.Core.StringsExtensions.ReplaceValues(string[], string[])
+  type: Method
+  source:
+    id: ReplaceValues
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\StringsExtensions.cs
+    startLine: 17
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  summary: Replace Values of this array with New Array
+  example: []
+  syntax:
+    content: public static string[] ReplaceValues(this string[] line, string[] newArray)
+    parameters:
+    - id: line
+      type: System.String[]
+      description: ''
+    - id: newArray
+      type: System.String[]
+      description: ''
+    return:
+      type: System.String[]
+      description: ''
+    content.vb: Public Shared Function ReplaceValues(line As String(), newArray As String()) As String()
+  overload: AstarLibrary.Core.StringsExtensions.ReplaceValues*
+  nameWithType.vb: StringsExtensions.ReplaceValues(String(), String())
+  fullName.vb: AstarLibrary.Core.StringsExtensions.ReplaceValues(String(), String())
+  name.vb: ReplaceValues(String(), String())
+- uid: AstarLibrary.Core.StringsExtensions.StringSplitter(System.String,System.Char[])
+  commentId: M:AstarLibrary.Core.StringsExtensions.StringSplitter(System.String,System.Char[])
+  id: StringSplitter(System.String,System.Char[])
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.StringsExtensions
+  langs:
+  - csharp
+  - vb
+  name: StringSplitter(string, char[])
+  nameWithType: StringsExtensions.StringSplitter(string, char[])
+  fullName: AstarLibrary.Core.StringsExtensions.StringSplitter(string, char[])
+  type: Method
+  source:
+    id: StringSplitter
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\StringsExtensions.cs
+    startLine: 32
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  summary: Split string based on Characters
+  example: []
+  syntax:
+    content: public static string[] StringSplitter(this string tosplit, char[] chars)
+    parameters:
+    - id: tosplit
+      type: System.String
+      description: ''
+    - id: chars
+      type: System.Char[]
+      description: ''
+    return:
+      type: System.String[]
+      description: ''
+    content.vb: Public Shared Function StringSplitter(tosplit As String, chars As Char()) As String()
+  overload: AstarLibrary.Core.StringsExtensions.StringSplitter*
+  nameWithType.vb: StringsExtensions.StringSplitter(String, Char())
+  fullName.vb: AstarLibrary.Core.StringsExtensions.StringSplitter(String, Char())
+  name.vb: StringSplitter(String, Char())
+- uid: AstarLibrary.Core.StringsExtensions.StringCut(System.String,System.Int32,System.Int32)
+  commentId: M:AstarLibrary.Core.StringsExtensions.StringCut(System.String,System.Int32,System.Int32)
+  id: StringCut(System.String,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.StringsExtensions
+  langs:
+  - csharp
+  - vb
+  name: StringCut(string, int, int)
+  nameWithType: StringsExtensions.StringCut(string, int, int)
+  fullName: AstarLibrary.Core.StringsExtensions.StringCut(string, int, int)
+  type: Method
+  source:
+    id: StringCut
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\StringsExtensions.cs
+    startLine: 43
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  summary: Cut string based on letter position
+  example: []
+  syntax:
+    content: public static string StringCut(this string toCut, int initialCharLength, int finalCharLength)
+    parameters:
+    - id: toCut
+      type: System.String
+      description: ''
+    - id: initialCharLength
+      type: System.Int32
+      description: ''
+    - id: finalCharLength
+      type: System.Int32
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function StringCut(toCut As String, initialCharLength As Integer, finalCharLength As Integer) As String
+  overload: AstarLibrary.Core.StringsExtensions.StringCut*
+  nameWithType.vb: StringsExtensions.StringCut(String, Integer, Integer)
+  fullName.vb: AstarLibrary.Core.StringsExtensions.StringCut(String, Integer, Integer)
+  name.vb: StringCut(String, Integer, Integer)
+- uid: AstarLibrary.Core.StringsExtensions.AddCharacterToString(System.String,System.Char)
+  commentId: M:AstarLibrary.Core.StringsExtensions.AddCharacterToString(System.String,System.Char)
+  id: AddCharacterToString(System.String,System.Char)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.StringsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddCharacterToString(string, char)
+  nameWithType: StringsExtensions.AddCharacterToString(string, char)
+  fullName: AstarLibrary.Core.StringsExtensions.AddCharacterToString(string, char)
+  type: Method
+  source:
+    id: AddCharacterToString
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\StringsExtensions.cs
+    startLine: 56
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  summary: Add char to a string
+  example: []
+  syntax:
+    content: public static string AddCharacterToString(this string toModify, char toAdd)
+    parameters:
+    - id: toModify
+      type: System.String
+      description: ''
+    - id: toAdd
+      type: System.Char
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function AddCharacterToString(toModify As String, toAdd As Char) As String
+  overload: AstarLibrary.Core.StringsExtensions.AddCharacterToString*
+  nameWithType.vb: StringsExtensions.AddCharacterToString(String, Char)
+  fullName.vb: AstarLibrary.Core.StringsExtensions.AddCharacterToString(String, Char)
+  name.vb: AddCharacterToString(String, Char)
+- uid: AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(System.String,System.String)
+  commentId: M:AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(System.String,System.String)
+  id: RemoveSpecialCharacters(System.String,System.String)
+  isExtensionMethod: true
+  parent: AstarLibrary.Core.StringsExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveSpecialCharacters(string, string)
+  nameWithType: StringsExtensions.RemoveSpecialCharacters(string, string)
+  fullName: AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(string, string)
+  type: Method
+  source:
+    id: RemoveSpecialCharacters
+    path: C:\Users\rafae\OneDrive\Desktop\Organizar\Creation\EssencialTools_Core\EssencialTools_Core\Extends\StringsExtensions.cs
+    startLine: 71
+  assemblies:
+  - EssencialTools_Core
+  namespace: AstarLibrary.Core
+  summary: Remove special characters
+  example: []
+  syntax:
+    content: public static string RemoveSpecialCharacters(this string str, string regex)
+    parameters:
+    - id: str
+      type: System.String
+      description: ''
+    - id: regex
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function RemoveSpecialCharacters(str As String, regex As String) As String
+  overload: AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters*
+  nameWithType.vb: StringsExtensions.RemoveSpecialCharacters(String, String)
+  fullName.vb: AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(String, String)
+  name.vb: RemoveSpecialCharacters(String, String)
+references:
+- uid: AstarLibrary.Core
+  commentId: N:AstarLibrary.Core
+  href: AstarLibrary.html
+  name: AstarLibrary.Core
+  nameWithType: AstarLibrary.Core
+  fullName: AstarLibrary.Core
+  spec.csharp:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+  spec.vb:
+  - uid: AstarLibrary
+    name: AstarLibrary
+    href: AstarLibrary.html
+  - name: .
+  - uid: AstarLibrary.Core
+    name: Core
+    href: AstarLibrary.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AstarLibrary.Core.StringsExtensions.ReplaceValues*
+  commentId: Overload:AstarLibrary.Core.StringsExtensions.ReplaceValues
+  href: AstarLibrary.Core.StringsExtensions.html#AstarLibrary.Core.StringsExtensions.ReplaceValues(System.String[],System.String[])
+  name: ReplaceValues
+  nameWithType: StringsExtensions.ReplaceValues
+  fullName: AstarLibrary.Core.StringsExtensions.ReplaceValues
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.StringsExtensions.StringSplitter*
+  commentId: Overload:AstarLibrary.Core.StringsExtensions.StringSplitter
+  href: AstarLibrary.Core.StringsExtensions.html#AstarLibrary.Core.StringsExtensions.StringSplitter(System.String,System.Char[])
+  name: StringSplitter
+  nameWithType: StringsExtensions.StringSplitter
+  fullName: AstarLibrary.Core.StringsExtensions.StringSplitter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Char[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
+  nameWithType.vb: Char()
+  fullName.vb: Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+- uid: AstarLibrary.Core.StringsExtensions.StringCut*
+  commentId: Overload:AstarLibrary.Core.StringsExtensions.StringCut
+  href: AstarLibrary.Core.StringsExtensions.html#AstarLibrary.Core.StringsExtensions.StringCut(System.String,System.Int32,System.Int32)
+  name: StringCut
+  nameWithType: StringsExtensions.StringCut
+  fullName: AstarLibrary.Core.StringsExtensions.StringCut
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AstarLibrary.Core.StringsExtensions.AddCharacterToString*
+  commentId: Overload:AstarLibrary.Core.StringsExtensions.AddCharacterToString
+  href: AstarLibrary.Core.StringsExtensions.html#AstarLibrary.Core.StringsExtensions.AddCharacterToString(System.String,System.Char)
+  name: AddCharacterToString
+  nameWithType: StringsExtensions.AddCharacterToString
+  fullName: AstarLibrary.Core.StringsExtensions.AddCharacterToString
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters*
+  commentId: Overload:AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters
+  href: AstarLibrary.Core.StringsExtensions.html#AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters(System.String,System.String)
+  name: RemoveSpecialCharacters
+  nameWithType: StringsExtensions.RemoveSpecialCharacters
+  fullName: AstarLibrary.Core.StringsExtensions.RemoveSpecialCharacters
